@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>OAuth_Direct_Login</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>REST API oauth direct login extension is to avoid manual login during the oauth authentication process.</summary>
+    <description>Magento REST API oauth direct login extension is designed to accept username and password as part of parm during authentication process and automatically login specified user account without redirecting to user login page.&#xD;
+&#xD;
+&lt;p&gt;You can download the following example to learn how to use the REST API oauth direct login module:&#xD;
+&lt;a href="http://www.eversunsoft.com/demo/getOauthAccessKeyAndSecret.zip"&gt;download the sample code&lt;/a&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+Sample usage(return oAuth Access Token and Access Secret):&#xD;
+&#xD;
+ getOauthAccessKeyAndSecret('oauth_consumer_key','oauth_consumer_secret','login_email','login_password','https://your-domain.com/');&#xD;
+&#xD;
+&lt;/p&gt;</description>
+    <notes>General performance improvements and support of Magento 1.9 CE and 1.14 EE versions</notes>
+    <authors><author><name>Eversun Software Corp.</name><user>eversun</user><email>support@eversunsoft.com</email></author></authors>
+    <date>2015-11-27</date>
+    <time>21:45:10</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="ES_Coreextended.xml" hash="e9ecd409de96aa1b78cffe6c59c1cb4d"/></dir></target><target name="magelocal"><dir name="ES"><dir name="Coreextended"><dir name="controllers"><file name="AuthorizeController.php" hash="f576a332b51df19d83a3232afca89472"/></dir><dir name="etc"><file name="config.xml" hash="ed836650237cb9ac1b02faaeba5b18ae"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

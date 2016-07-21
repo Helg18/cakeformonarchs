@@ -1,0 +1,901 @@
+/*	Custom font 	*/
+@font-face{
+	font-family: PreciousSerifBook;
+	src: url("http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSerifBook.ttf");
+}
+.font-medium .PreciousSerifBook{
+	font-family: "PreciousSerifBook"!important;
+}
+
+
+@font-face{
+	font-family: PreciousSansMedium;
+	src: url(http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSansMedium.ttf);
+}
+.PreciousSansMedium .sans-medium{
+	font-family: "PreciousSansMedium" !important;
+}
+
+
+@font-face{
+	font-family: PreciousSansBold;
+	src: url("http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSansBold.ttf");
+}
+.font-bold .PreciousSansBold {
+	font-family:"PreciousSansBold" !important:
+}
+
+
+@font-face{
+	font-family: PreciousSansBlack;
+	src: url("http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSansBlack.ttf");
+}
+.PreciousSansBlack{
+	font-family: PreciousSansBlack !important;
+}
+
+
+@font-face{
+	font-family: PreciousSerifBook;
+	src: url('http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSerifBook.ttf');
+}
+.PreciousSerifBook{
+	font-family: "PreciousSerifBook" !important;
+}
+
+@font-face{
+	font-family: PresiousSerifBold;
+	src: url('http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSerifBold.ttf');
+}
+.PresiousSerifBold{
+	font-family: "PresiousSerifBold" !important;
+}
+
+
+@font-face{
+	font-family: PreciousSansLightItalic;
+	src: url('http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSansLightItalic.ttf');
+}
+.PreciousSansLightItalic{
+	font-family: "PreciousSansLightItalic" !important;
+}
+
+@font-face{
+	font-family: PreciousSansBook;
+	src: url('http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/fonts/PreciousSansBook.ttf');
+}
+.PreciousSansBook{
+	font-family: "PreciousSansBook" !important;
+}
+
+
+
+/*******************	Font Classes  ****************/
+
+
+
+/* 	Common Classes	 */
+*{
+	font-family: "PreciousSerifBook";
+}
+label{
+	margin:10px 0px!important;
+}
+h1, .h1, h2, .h2, h3, .h3{
+	margin-top:0px!important;
+	font-family: "PreciousSansBold"!important;
+}
+ul{
+	list-style-type: none;
+	list-style: none;
+}
+
+.input-box{
+	border:0px;
+}
+.input-box select{
+	width: 100%;
+}
+.input-text{
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.fieldset h1{
+	font-family: "PreciousSansBold";
+	font-weight: 900;
+}
+/*	Layout 	*/
+.main-container{
+	margin-bottom: 50px;
+}
+.main{
+	/*border-bottom: 1px solid #cac8b3;*/
+	padding-bottom: 50px;
+}
+.messages, .success-msg > ul{
+	list-style: none;
+	padding:0px;
+}
+/*.success-msg ul li{
+	color: #cac8b3;
+    background-color: #1e2c47;
+    padding: 10px 10px;
+    border: 0px;
+    width: 100%;
+    margin: 10px 0px;
+}*/
+.messages{
+	background-color: #333333;
+    
+    padding: 10px;
+}
+.error-msg{
+	color: #ffb1b1;
+}
+.success-msg{
+	color:#cac8b3;
+}
+#empty_cart_button{
+	background: transparent;
+}
+.step-title{
+	border-bottom:1px solid #cac8b3;
+}
+.buttons-set{
+
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.upper{
+	margin-top: -20px !important;
+}
+
+.letra-gris{
+	color: #888888 !important;
+}
+
+/*	Menu 	*/
+.parent > ul{
+	display:none;
+}
+.parent:hover > ul{
+	font-family: "PreciousSerifBook";
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: display 2s;
+    margin-top: 15px;
+    text-align: left;
+    list-style: none;
+    padding:0px;
+    list-style-type: none;
+    margin-left: 30px;
+    /*background-color: rgba(18,17,24,0.3);*/
+}
+.parent ul li{
+	padding: 10px;
+}
+
+
+.parent ul li a{
+	color:#cac8b3;
+}
+
+.parent ul li a:hover{
+	/*background-color: #cac8b3;*/
+	color:#cac8b3;
+	text-decoration: none;
+	
+	
+}
+.not-home span{
+	color: #1e2c47;
+}
+
+/*	Top Menu	*/
+nav > .container-fluid{
+	padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.nav span{
+	font-family: "PreciousSerifBook";
+}
+.navbar-nav > li{
+	float:none!important;
+	display: inline;
+	text-align: center
+}
+.navbar-nav > li a{
+	display: inline-block;
+}
+.navbar-nav{
+	float:none!important;
+}
+.nav > li,.navbar-default .navbar-nav > li > a{
+	display: inline!important;
+	color:#cac8b3!important;
+	padding:20px;
+	font-size: 20px;
+}
+.nav > li,.navbar-default .navbar-nav > li > a:hover{
+	color:#a69a76;
+	text-decoration: none;
+}
+.header{
+	/*ckground: url(../images/header-background.jpg) no-repeat top center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	*/
+	background-size: cover;
+	height: 800px;
+}
+ .container-fluid > .navbar-header{
+ 	margin-left:0px!important;
+ 	margin-right:0px!important;
+ }
+ .navbar-nav > li > a{
+ 	font-family: "PreciousSerifBook", sans-serif;
+ 	text-transform: uppercase;
+ 	font-weight: 500;
+ }
+.logo  img{
+	max-width: 35%;
+	padding-bottom: 80px;
+}
+.collection-btn a{
+	text-decoration: none;
+	font-family: "PreciousSerifMedium", sans-serif;
+	padding:10px;
+	border:1px solid #cac8b3;
+	font-size: 25px;
+	color:#cac8b3;
+}
+.collection-btn-clean a{
+	text-decoration: none;
+	padding:10px;
+	border:1px solid #cac8b3;
+	font-size: 25px;
+	color:#cac8b3;
+}
+.collection-btn a:hover{
+	color:#a69a76;
+	text-decoration: none;
+}
+.collection-btn-clean a:hover{
+	color:#a69a76;
+	text-decoration: none;
+}
+.navbar-default .navbar-toggle{
+	border-color: transparent!important;
+}
+.navbar-default .navbar-nav > .active > a{
+	background-color: color:#cac8b3!important;
+	border-radius: 5px;
+	color:#1e2c47!important;
+}
+.logo-top{
+    position: absolute;
+    width: 100%;
+    top: 20px;
+}
+.logo-wrapper{
+	position:absolute;
+	width: 100%;
+	top:0;
+	z-index: 0;
+}
+.page-scroll-indicator{
+	font-family: 'Glyphicons Halflings';
+	position: absolute!important;
+    bottom: 0!important;
+	color:#a69a76;
+    top: 93%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+.navbar-default .navbar-nav > .active > a{
+	background-color: transparent!important;
+}
+.topHeaderLinks{
+
+}
+
+
+/*	Breadcrums 	*/
+.breadcrumb{
+	background-color: transparent!important;
+}
+.breadcrumb ul li{
+	display: inline;
+}
+
+/*	Catalog	*/
+.category-title, .page-title{
+	border-bottom:1px solid #1e2c47 ;
+	margin-bottom:50px;
+}
+.page-title h5 a{
+	text-decoration:none;
+	color:#1e2c47;
+}
+
+/*	Product */
+.item .product-name{
+	border-bottom:1px solid #1e2c47 ;
+	padding-top:10px;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+.product-name{
+	font-family: "PreciousSansBold", sans-serif;
+	font-weight: 900;
+}
+.product-name a{
+	color:#1e2c47 ;
+	font-weight: 900;
+    font-family: PreciousSansBold;
+}
+.product-name a:hover{
+	text-decoration: none;
+}
+.item{
+	margin:50px 0px;
+}
+.product-view{
+	margin:50px 0px;
+}
+.product-shop .product-name{
+	
+}
+.product-img-box .product-image{
+	padding: 10px;
+    border: 1px solid #cac8b3;
+	text-align: center;
+}
+.more-views ul li{
+	display:inline;
+}
+.more-view-image img{
+	border:1px solid #cac8b3;
+	padding:2px;
+}
+.button{
+    color: #cac8b3;
+    background-color: #1e2c47;
+    padding: 10px 10px;
+    border: 0px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.button:hover{
+	text-decoration: none;
+	color:#cac8b3;
+}
+
+
+.button-newsletter:hover{
+    background-color: #999999 !important;
+	text-decoration: none;
+	color: white;
+}
+
+.button-newsletter{
+    color: #cac8b3;
+    background-color: #888888 !important;
+    padding: 10px 10px;
+    border: 0px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+
+
+select {
+    margin: 50px;
+    border: 1px solid #111;
+    background: transparent;
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+
+/*	Icons	*/
+.icon{
+	font-size: 45px;
+	color:#cac8b3;
+}
+
+/*	Responsive Fix	*/
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: transparent!important;
+}
+.container-fluid > .navbar-collapse{
+	margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+/* 	Footer	*/
+.footer-container{ 
+	font-family: "PreciousSerifBook", sans-serif;
+	color:#1e2c47!important;
+	/*border-top:1px solid #cac8b3;*/
+	padding-top:15px;
+}
+.footer-container h4{
+	font-weight: 900;
+	font-family: PreciousSansBold;
+
+}
+.footer-container ul{
+	list-style: none;
+	list-style-type: none;
+	padding-left:0px;
+}
+.footer-container ul li a{
+	color:#1e2c47!important;
+	text-decoration: none;
+    font-family: PreciousSansBold;
+
+}
+.footer-line{
+	border-top:1px solid #cac8b3;
+}
+.social-links ul li{
+	display:inline;
+}
+.newsletter-input{
+    border-bottom: 1px solid #cac8b3;
+    width: 90%;	
+    
+}
+.newsletter-input input{
+	border:0px;
+	width: 90%;
+}
+.newsletter-input input:focus{
+	border:0px;
+}
+.newsletter-input > .glyphicon{
+	color:#cac8b3;
+}
+.subscribe-button button {
+	background-color: #cac8b3;
+	color:#fff;
+	width: 90%;
+	border:0px;
+	margin-top:10px;
+	padding:5px;
+}
+
+
+
+
+/*	Section 1	*/
+.section1{
+	font-family: "PreciousSerifMedium";
+	margin-top:50px;
+/*	margin-bottom:50px;*/
+}
+.polo-text{
+	margin-top: 10%;
+    margin-bottom: 10%;
+}
+.polo-text a{
+	background-color:#1e2c47;
+	padding:15px 50px;
+	color:#cac8b3;
+	margin:10px;
+}
+.polo-text a:hover{
+	text-decoration: none;
+	color:#cac8b3;
+}
+
+/*	Section 2	*/
+.section2{
+	background: url(../images/followup-background.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	font-family: "PreciousSerifBook";
+	color:#fff;
+}
+.section2 > .container > .row{
+    margin-top: 184px;
+    margin-bottom: 184px;
+}
+.section2 > .container-fluid > .row{
+	text-align: center;
+	margin-top:25%;
+}
+.section2  a{
+	background-color: #1e2c47;
+    padding: 15px 50px;
+    color: #cac8b3;
+    margin: 10px;	
+}
+
+/*	Section 3	*/
+.section3{
+	font-family: "PreciousSerifBook";
+}
+.section3 a{
+	background-color: #1e2c47;
+    /*padding: 15px 50px;*/
+    color: #cac8b3;
+    /*margin: 10px;	*/
+}
+.section3 a:hover{
+	text-decoration: none;
+	color: #cac8b3;
+}
+.section3 img{
+	width: 100%;
+}
+.section3 .col-md-3{
+	padding-right: 0px!important;
+	padding-left:0px!important;
+}
+.section3 .about-text{
+    margin-top: 14.36%;
+    margin-bottom: 14.36%;
+}
+.section4{
+	background-color: white;
+	font-family: "PreciousSerifBook";
+	padding-top: 20px;
+	/*margin-top:50px;
+	margin-bottom:50px;*/
+}
+
+/*	Our Story 	*/
+.our-story{
+	margin-top: -50px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background: url(../images/our-story-background.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	font-family: "PreciousSerifBook";
+	color:#fff;
+}
+.our-story-text{
+	margin-top:550px;
+}
+.our-story-text h2{
+	font-family: "PreciousSansBold";
+	font-weight: 900;
+}
+
+/*	Customer service */
+.customer-service{
+	margin-top: -50px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background: url(../images/customer-service-background.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	font-family: "PreciousSerifBook";
+	color:#fff;	
+}
+.customer-service-info{
+	margin-top:550px;
+}
+.panel-title a{
+	font-family: "PreciousSansBold";
+	font-weight: 900;
+	font-size: 24px;
+}
+.panel-default > .panel-heading{
+	background-color: transparent!important;
+	border-color:transparent!important;
+	border:0px!important;
+}
+.panel{
+	border:0px!important;
+}
+.dropdown-faq{
+	margin-top: -15px;
+}
+
+
+/*	Checkout 	*/
+.checkout-types{
+
+}
+
+.fondo-blanco{
+	background: rgba(255,255,255,5);
+}
+
+.fondo-polo{
+	background: rgba(255,255,255,5);
+	min-width: 105.2% !important;
+	margin-left: -4% !important;
+	padding-bottom: 3% !important;
+	max-height: 437.5px;
+	overflow: hidden;
+}
+
+.barra-top ul{
+	top: 0 !important;
+	width: 100% !important;
+	height: 40px !important;
+	padding-top: 9px !important;
+    list-style-type: none !important;
+    text-align: right !important;
+	background: rgba(202,200,179,0.3) !important;
+	text-decoration: none;
+}
+
+.barra-top ul li{
+    padding-left: 25px !important; 
+    margin-left: 20px !important;
+    display: inline;
+	color: beige;
+}
+
+.heredar-tamano{
+	height: inherit !important;
+}
+
+
+
+
+
+/*****************************************************/
+/*    Animaciones -> Seccion 1 -> Polos Sections     */
+/*****************************************************/
+
+.polo-section {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.polo-section ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+
+	animation: polos 10s infinite alternate;
+}
+
+.polo-section li{
+	width: 100%;
+	list-style: none !important;
+	/*border: 2px solid #a33;*/
+}
+
+.polo-section  img{
+	width: 75%;
+}
+
+@keyframes polos {
+	0%{ margin-left: 0; }
+	20%{ margin-left: 0; }
+
+	25%{ margin-left: -100%; }
+	30%{ margin-left: -100%; }
+
+	35%{ margin-left: -200%; }
+	45%{ margin-left: -200%; }
+
+	50%{ margin-left: -300%; }	
+	65%{ margin-left: -300%; }
+
+	70%{ margin-left: -300%; }	
+	80%{ margin-left: -300%; }
+
+	85%{ margin-left: -300%; }	
+	100%{ margin-left: -300%; }
+}
+
+
+/*****************************************************/
+/*    Animaciones -> Seccion 5 -> Presale blazer     */
+/*****************************************************/
+
+.presales-section {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.presales-section ul {
+	display: flex;
+	padding: 0;
+	width: 800%;
+
+	animation: blazers 24s infinite alternate;
+}
+
+.presales-section li{
+	width: 100%;
+	list-style: none !important;
+	/*border: 2px solid #a33;*/
+}
+
+.presales-section img{
+	width: 75%;
+}
+
+@keyframes blazers {
+	0%{ margin-left: 0; }
+	7%{ margin-left: 0; }
+
+	14%{ margin-left: -100%; }
+	21%{ margin-left: -100%; }
+
+	28%{ margin-left: -200%; }
+	35%{ margin-left: -200%; }
+
+	42%{ margin-left: -300%; }	
+	49%{ margin-left: -300%; }
+
+	56%{ margin-left: -400%; }	
+	61%{ margin-left: -400%; }
+
+	68%{ margin-left: -500%; }	
+	72%{ margin-left: -500%; }
+
+	77%{ margin-left: -600%; }	
+	82%{ margin-left: -600%; }
+
+	91%{ margin-left: -700%; }	
+	100%{ margin-left: -700%; }
+}
+
+
+
+/*****************************************************/
+/* Integracion del video de fondo en el landing page */
+/*****************************************************/
+
+video{
+	position: fixed;
+
+	min-width: 100%;
+	min-height: 100%;
+
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translateX(-50%) translateY(-50%);
+
+	z-index: -1;
+}
+
+input #newsletter{
+	background: transparent !important;
+	border: 0 !important;
+
+}
+
+.transpa {
+    background-color: transparent;
+    border: 0px solid !important;
+    padding-bottom: 5px;
+}
+.transpa:hover {
+    background-color: transparent;
+    color: white !important;
+    outline:0px !important;
+}
+.transpa:focus {
+    background-color: transparent;
+    color: white !important;
+    outline:0px !important;
+}
+/*****************************************************/
+
+
+/* Media Queries */
+@media(min-width: 768px){
+	.logo-top img{
+		max-width: 65px;
+		padding-bottom: 80px;
+	}
+	.navbar-default{
+		background-color: transparent!important;
+		border-color: transparent!important; 
+		padding-top:100px;
+		padding-bottom: 25px;
+		z-index: 1;
+	}
+	.navbar-collapse{
+		display:none;
+	}
+
+}
+@media(max-width: 767px){
+	.logo  img{
+		max-width: 50%;
+		padding-bottom: 80px;
+	}
+	.navbar-default{
+		background-color: transparent!important;
+		border-color: transparent!important; 
+		padding-top:0px;
+		padding-bottom: 0px;
+		z-index: 1;
+	}
+	.collapsed{
+		display:block;
+	}
+	.nav > li{
+		display: block!important;
+		
+	}
+	.nav > li,.navbar-default .navbar-nav > li > a{
+		padding:15px;
+	}
+	.navbar-default .navbar-collapse{
+		background-color: rgba(18,17,24,0.8); 
+	}
+	.parent > ul{
+		display: none;
+	}
+	.parent:hover > ul{
+		display: none;
+	}
+	.logo-top{
+		position: absolute;
+	    margin-left: auto;
+	    margin-right: auto;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+		width: 100px;
+	    margin-top: 8px;
+	}
+}
+@media(max-width: 992px){
+	.footer-container{
+		text-align: center;
+	}
+	.newsletter-input{
+		margin: 0 auto;
+	}
+	.nav > li, .navbar-default .navbar-nav > li > a{
+		padding:12px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

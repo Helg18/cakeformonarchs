@@ -228,3 +228,46 @@ Stack trace:
 #1 /home/kreati22/public_html/cfm/get.php(165): sendFile('/home/kreati22/...')
 #2 {main}
   thrown in /home/kreati22/public_html/cfm/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[22-Jul-2016 20:50:59 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[22-Jul-2016 20:58:10 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 00:08:37 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 00:42:41 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 00:43:06 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 00:46:59 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:07:30 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:07:58 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:09:31 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:09:38 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:10:13 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:32:38 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:33:14 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 01:36:05 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:28:35 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:29:48 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:30:35 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:30:42 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:31:31 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:39:32 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:39:43 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:40:51 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:43:54 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:44:17 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:45:38 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:46:12 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:46:50 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:47:39 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:49:46 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:56:02 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:59:01 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 02:59:51 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 03:00:38 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 03:01:13 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 03:56:50 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 03:58:43 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:02:03 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:02:29 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:04:33 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:06:46 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:07:58 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:23:37 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 04:25:03 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385

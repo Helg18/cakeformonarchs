@@ -43,25 +43,25 @@
         <?php echo $this->getBlockHtml('formkey') ?>
         <div class="col-md-8 col-sm-12 col-xs-12">
             <div class="product-img-box">
-                <?php echo $this->getChildHtml('media') ?>
+                <span class="PreciousSansMedium"><?php echo $this->getChildHtml('media') ?></span>
             </div>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
             <div class="product-shop">
-                <div class="product-name">
-                    <h1><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h1>
+                <div class="product-name PreciousSansMedium">
+                    <h1><span class="PreciousSansMedium"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span></h1>
                 </div>
 
-                <?php echo $this->getChildHtml('product_type_data') ?> 
+                <span class="PreciousSansMedium"><?php echo $this->getChildHtml('product_type_data') ?> </span>
                 <br />
                 <?php if ($_product->isSaleable() && $this->hasOptions()):?>
-                     <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+                     <span class="PreciousSansMedium"><?php echo $this->getChildChildHtml('container2', '', true, true) ?></span>
                 <?php endif;?>
                 <br />
-                <?php echo $this->getChildHtml('addtocart') ?>
+                <span class="PreciousSansMedium"><?php echo $this->getChildHtml('addtocart') ?></span>
             </div>
             <div class="product-collateral">
-                <?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
+                <span class="PreciousSansMedium"><?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?></span>
             </div>
         </div>
         
@@ -128,7 +128,7 @@
     <div class="col-md-12 col-sm-12 col-xs-12">
         <div class="product-collateral">
             <?php foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
-                <div class="box-collateral <?php echo "box-{$alias}"?>">
+                <div class="box-collateral PreciousSansMedium <?php echo "box-{$alias}"?>">
                     <?php echo $html; ?>
                 </div>
             <?php endforeach;?>

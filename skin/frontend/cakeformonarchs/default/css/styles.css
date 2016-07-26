@@ -254,16 +254,15 @@ nav > .container-fluid{
 .collection-btn a{
 	text-decoration: none;
 	font-family: "PreciousSerifMedium", sans-serif;
-	padding:10px;
 	border:1px solid #cac8b3;
-	font-size: 25px;
+	font-size: 16px;
 	color:#cac8b3;
 }
 .collection-btn-clean a{
 	text-decoration: none;
-	padding:10px;
+	padding:14px 31px 13px 31px;
 	border:1px solid #cac8b3;
-	font-size: 25px;
+	font-size: 16px;
 	color:#cac8b3;
 }
 .collection-btn a:hover{
@@ -632,18 +631,6 @@ select {
 
 }
 
-.fondo-blanco{
-	background: rgba(255,255,255,5);
-}
-
-.fondo-polo{
-	background: rgba(255,255,255,5);
-	min-width: 105.2% !important;
-	margin-left: -4% !important;
-	padding-bottom: 3% !important;
-	max-height: 437.5px;
-	overflow: hidden;
-}
 
 .barra-top ul{
 	top: 0 !important;
@@ -663,13 +650,113 @@ select {
 	color: beige;
 }
 
-.heredar-tamano{
-	height: inherit !important;
+.barra-top2 nav .navbar{
+	top: 50px !important;
+	margin: -10px;
+	width: 100% !important;
 }
 
 
+.parent ul{
+	min-height: 210px !important;
+	padding-top: 10px;
+	margin-top: -10px;
+	background: rgba(202,200,179,0.3) !important;
+}
+.parent li{
+	padding-left: 0 !important;
+	list-style: none;
+}
+
+.barra-top2{
+	top: 0 !important;
+	margin-top: -113px;
+	border-top: 0.7px solid beige;
+}
+
+.level0{
+	font-family: PreciousSansMedium !important;
+}
+.barra-top2 ul{
+	width: 100% !important;
+    list-style-type: none !important;
+    text-align: center !important;
+	padding-top: 20px !important;
+	text-decoration: none;
+	color: beige;
+}
+
+.barra-top2-fondo{
+	background: rgba(202,200,179,0.3) !important;
+}
+
+.barra-top2 li{
+    padding-left: 25px !important; 
+    margin-left: 20px !important;
+    text-align: center !important;
+	color: beige;
+    display: inline;
+}
+
+.barra-top2 a span{
+	font-family: PreciousSansMedium !important;
+	text-transform: capitalize !important;
+	font-size: 16px !important;
+	color: #1e2c47;
+}
+
+.letra-blanca{
+	color: #fff !important;
+}
+
+.izquierdador{
+	text-align: left !important;
+	margin-left: 10px;
+	padding-left: 5px;
+}
 
 
+#loguito-nav{
+    display: inline;
+    text-align: left !important;
+}
+
+.loguito-nav{
+	max-width: 3.5% !important;
+	height: auto;
+	padding-right: 5px;
+	margin-left: 35px;
+}
+
+.fondo-blanco{
+	background: rgba(255,255,255,5);
+}
+
+.fondo-polo{
+	background: rgba(255,255,255,5);
+	min-width: 105.2% !important;
+	margin-left: -4% !important;
+	overflow: hidden;
+	min-height: 510px!important;
+}
+
+.box-collateral * {
+	font-family: PreciousSansMedium!important;
+	text-transform: capitalize;
+}
+
+.product-name a {
+	font-family: PreciousSansMedium !important;
+	text-transform: capitalize;
+}
+
+#nombre-en-lista{
+	font-family: PreciousSerifBook !important;
+}
+
+span .PreciousSansMedium a {
+	font-family: PreciousSansMedium !important;
+}
 
 /*****************************************************/
 /*    Animaciones -> Seccion 1 -> Polos Sections     */
@@ -686,7 +773,7 @@ select {
 	padding: 0;
 	width: 600%;
 
-	animation: polos 10s infinite alternate;
+	/*animation: polos 10s infinite alternate;*/
 }
 
 .polo-section li{
@@ -696,7 +783,7 @@ select {
 }
 
 .polo-section  img{
-	width: 75%;
+	height: inherit;
 }
 
 @keyframes polos {
@@ -734,8 +821,9 @@ select {
 	display: flex;
 	padding: 0;
 	width: 800%;
+	padding-bottom: 20px;
 
-	animation: blazers 24s infinite alternate;
+	/*animation: blazers 24s infinite alternate;*/
 }
 
 .presales-section li{
@@ -745,7 +833,7 @@ select {
 }
 
 .presales-section img{
-	width: 75%;
+	width: 80%;
 }
 
 @keyframes blazers {
@@ -819,7 +907,24 @@ input #newsletter{
 
 
 /* Media Queries */
-@media(min-width: 768px){
+@media(max-width: 430px){
+	
+	.fondo-polo{
+		background: rgba(255,255,255,5);
+		min-width: 108% !important;
+		overflow: hidden;
+	}
+
+	.barra-top ul li{
+	    padding-right: 10px !important; 
+	    margin-left: 0px !important;
+	    display: inline;
+	}
+
+
+}
+
+@media(min-width: 770px){
 	.logo-top img{
 		max-width: 65px;
 		padding-bottom: 80px;
@@ -836,7 +941,7 @@ input #newsletter{
 	}
 
 }
-@media(max-width: 767px){
+@media(max-width: 769px){
 	.logo  img{
 		max-width: 50%;
 		padding-bottom: 80px;
@@ -876,6 +981,9 @@ input #newsletter{
 	    top: 0;
 		width: 100px;
 	    margin-top: 8px;
+	}
+	.polo-section img{
+		width: 50%;
 	}
 }
 @media(max-width: 992px){

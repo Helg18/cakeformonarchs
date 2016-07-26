@@ -30,14 +30,18 @@
 <!-- Comienza Navbar-->
 <div class="barra-top">
   <ul>
-    <li class="level0 nav-1 first level-top">
-      <a class="PreciousSansMedium" style="color: beige;" href="customer/account/login/">LOGIN</a>
+    <li class="">
+      <a class="PreciousSansMedium" style="color: #1e2c47;" href="customer/account/login/">Join/Log In</a>
     </li>
-    <li class="level0 nav-1 first level-top">
-      <a class="PreciousSansMedium" style="color: beige;" href="checkout/cart/">CART</a>
+    <li class="">
+      <a class="PreciousSansMedium" style="color: #1e2c47;" href="checkout/cart/"><i class="ion-ios-cart-outline"></i> My Cart</a>
     </li>
-    <li class="level0 nav-1 first level-top"><a class="PreciousSansMedium" href="#"></a>&nbsp;</li>
+    <li class="">
+      <a class="PreciousSansMedium" style="color: #1e2c47;" href="#">Wishlist</a>
+    </li>
+    <li class=""><a class="PreciousSansMedium" href="#"></a>&nbsp;</li>
   </ul>
+
 </div>
 
 
@@ -53,7 +57,7 @@
             <div class="logo-wrapper">
                 <h1 class="logo text-center">
                     <?php if(!$this->getLogoSrc()): ?> <strong><?php echo $this->getLogoAlt() ?>  </strong><?php endif ?>
-                    <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo text-center">
+                    <br><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo text-center">
                         <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" />
                     </a>
                     
@@ -63,7 +67,7 @@
 
             </div><span class="glyphicon-menu-down page-scroll-indicator" aria-hidden="true"></span>
         </div>
-        
+        <br><br><br><br><br><br>
     </div>
 <?php else:?>
         <div class="not-home">
@@ -71,7 +75,7 @@
             <h1 class="logo-top text-center">
                 <?php if(!$this->getLogoSrc()): ?> <strong><?php echo $this->getLogoAlt() ?>  </strong><?php endif ?>
                 <br><br><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo text-center">
-                    <img src="<?php echo $this->getSkinUrl("images/logo-top.png") ?>" alt="<?php echo $this->getLogoAlt() ?>" />
+                   <br> <img src="<?php echo $this->getSkinUrl("images/logo-top.png") ?>" alt="<?php echo $this->getLogoAlt() ?>" />
                 </a>
             </h1>
     </div>

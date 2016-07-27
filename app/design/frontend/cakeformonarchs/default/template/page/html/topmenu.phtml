@@ -80,17 +80,26 @@
 
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
- 	<div class="navbar navbar-default barra-top2 barra-top2-fondo">
+ 	<nav class="navbar navbar-default barra-top2">
 		<div class="collapse navbar-collapse text-center barra-top2-fondo" id="bs-example-navbar-collapse-1">
+		<div class=" pull-right">
+		  <span id="barra-top">
+		      <a class="PreciousSansMedium" style="color: #1e2c47;" href="customer/account/login/">Join/Log In</a>&nbsp;&nbsp;&nbsp;
+		      <a class="PreciousSansMedium" style="color: #1e2c47;" href="checkout/cart/"><i class="ion-ios-cart-outline"></i> My Cart</a>&nbsp;&nbsp;&nbsp;
+		      <a class="PreciousSansMedium" style="color: #1e2c47;" href="#">Wishlist</a>&nbsp;&nbsp;&nbsp;<br>
+		  </span>
+
+		</div>
+		<div id="barra-separadora"></div>
 			<ul class="nav navbar-nav ">
 				<li class="pull-left">
 					<a href="<?php echo $this->getUrl('') ?>">
 						<img style="width: 40px;" src="http://kreativeco.com/cfm/media/wysiwyg/about-us/blue.png" class="loguito-nav pull-left"  id="loguito-nav">	    
 					</a>
 				</li>
-				<li class="level0 nav-1 first level-top"><a href="http://kreativeco.com/cfm/" class="level-top"><span>Home</span></a></li>
+				<li class="level0 nav-1 first level-top"><a href="http://kreativeco.com/cfm/" ><span>Home</span></a></li>
 				<?php echo $_menu; ?>
 			</ul>
 		</div><!-- /.navbar-collapse -->
-	</div> 
+	</nav> 
 <?php endif ?>

@@ -623,36 +623,33 @@ select {
 
 }
 
-
-.barra-top ul{
-	top: 0 !important;
-	width: 100% !important;
-	height: 40px !important;
-	padding-top: 9px !important;
-    list-style-type: none !important;
-    text-align: right !important;
-	background: rgba(202,200,179,0.3) !important;
-	text-decoration: none;
-	padding-bottom: 10px;
+.nav .navbar-nav{
+	padding-top: 5px !important;
 }
 
-.barra-top ul li{
-    padding-left: 25px !important; 
-    margin-left: 20px !important;
-    display: inline;
-	color: beige;
+
+#barra-separadora{
+	border-bottom: 0.2px solid beige;
+	width: 105%;	
+	margin-left: -1.2%;
+	margin-top: 2%;
+	margin-bottom: -4.8%;
 }
 
-.barra-top2 nav .navbar{
-	top: 50px !important;
-	margin: -10px;
-	width: 100% !important;
-
+#barra-top {
+/*	margin-top: 50px !important;
+	width: 102.2% !important;
+	margin-bottom: 50px !important;
+	padding-bottom: 5px;
+	padding-left: 10px !important;
+	padding-right: 10px !important;*/
 }
+
+
+
 .barra-top2{
-	top: 0 !important;
-	margin-top: -113px;
-	border-top: 0.7px solid beige;
+	top: 0px !important;
+	margin-top: -100px;
 }
 
 .level0{
@@ -665,8 +662,12 @@ select {
 	padding-top: 20px !important;
 	text-decoration: none;
 	color: beige;
-    padding-bottom: 20px !important;
+	margin-top: 5%;
+	padding-top: 0px;
+    padding-bottom: 1% !important;
 } 
+
+
 
 /**
  *
@@ -962,6 +963,7 @@ input #newsletter{
 	}
 	.parent:hover > ul{
 		display: none;
+		margin-top: 5%;
 	}
 	.logo-top{
 		position: absolute;

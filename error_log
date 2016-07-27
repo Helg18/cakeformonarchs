@@ -271,3 +271,5 @@ Stack trace:
 [26-Jul-2016 04:07:58 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
 [26-Jul-2016 04:23:37 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
 [26-Jul-2016 04:25:03 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 22:45:57 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[26-Jul-2016 22:46:43 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385

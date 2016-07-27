@@ -162,11 +162,11 @@ ul{
 
 /*	Menu 	*/
 .parent > ul{
-	display:none;
+	display: none;
 }
 .parent:hover > ul{
 	font-family: "PreciousSerifBook";
-    display: block;
+    display: flex;
     position: absolute;
     left: 0;
     transition: display 2s;
@@ -175,25 +175,18 @@ ul{
     list-style: none;
     padding:0px;
     list-style-type: none;
-    margin-left: 30px;
+    margin-left: -130% !important;
+	/*background: rgba(202,200,179,0.3) !important;*/
     /*background-color: rgba(18,17,24,0.3);*/
+    /*border: 1px solid white;*/
+    width: 590% !important;
+	text-align: center;
 }
 .parent ul li{
-	padding: 10px;
+	width: 100% !important;
+	text-align: center;
 }
 
-
-.parent ul li a{
-	color:#cac8b3;
-}
-
-.parent ul li a:hover{
-	/*background-color: #cac8b3;*/
-	color:#cac8b3;
-	text-decoration: none;
-	
-	
-}
 .not-home span{
 	color: #1e2c47;
 }
@@ -486,16 +479,15 @@ select {
 
 
 
-
 /*	Section 1	*/
 .section1{
 	font-family: "PreciousSerifMedium";
 	margin-top:50px;
-/*	margin-bottom:50px;*/
+	margin-bottom:-10px;
+	margin-left: 50%;
 }
 .polo-text{
-	margin-top: 10%;
-    margin-bottom: 10%;
+	margin-top: 17% !important;
 }
 .polo-text a{
 	background-color:#1e2c47;
@@ -641,6 +633,7 @@ select {
     text-align: right !important;
 	background: rgba(202,200,179,0.3) !important;
 	text-decoration: none;
+	padding-bottom: 10px;
 }
 
 .barra-top ul li{
@@ -654,20 +647,8 @@ select {
 	top: 50px !important;
 	margin: -10px;
 	width: 100% !important;
-}
 
-
-.parent ul{
-	min-height: 210px !important;
-	padding-top: 10px;
-	margin-top: -10px;
-	background: rgba(202,200,179,0.3) !important;
 }
-.parent li{
-	padding-left: 0 !important;
-	list-style: none;
-}
-
 .barra-top2{
 	top: 0 !important;
 	margin-top: -113px;
@@ -684,7 +665,15 @@ select {
 	padding-top: 20px !important;
 	text-decoration: none;
 	color: beige;
-}
+    padding-bottom: 20px !important;
+} 
+
+/**
+ *
+ * Cambie de header es el padding bottom y tengo que correjir los links del header
+ * donde estan los enlaces de login cart y lista de deseos.
+ * 
+ */
 
 .barra-top2-fondo{
 	background: rgba(202,200,179,0.3) !important;
@@ -696,6 +685,8 @@ select {
     text-align: center !important;
 	color: beige;
     display: inline;
+    vertical-align: middle !important;
+    padding-bottom: 10px !important;
 }
 
 .barra-top2 a span{
@@ -703,6 +694,7 @@ select {
 	text-transform: capitalize !important;
 	font-size: 16px !important;
 	color: #1e2c47;
+    padding-bottom: 10px !important;
 }
 
 .letra-blanca{
@@ -763,27 +755,26 @@ span .PreciousSansMedium a {
 /*****************************************************/
 
 .polo-section {
-	width: 95%;
-	margin: auto;
 	overflow: hidden;
-}
-
-.polo-section ul {
-	display: flex;
-	padding: 0;
-	width: 600%;
-
-	/*animation: polos 10s infinite alternate;*/
+	margin-bottom: -60px
 }
 
 .polo-section li{
-	width: 100%;
+	/*margin-left: 30%;*/
 	list-style: none !important;
-	/*border: 2px solid #a33;*/
 }
 
+
 .polo-section  img{
-	height: inherit;
+	height: 80% !important;
+}
+
+.polo-section ul {
+	/*display: flex;*/
+	padding: 0;
+	/*width: 100%;*/
+
+	/*animation: polos 10s infinite alternate;*/
 }
 
 @keyframes polos {

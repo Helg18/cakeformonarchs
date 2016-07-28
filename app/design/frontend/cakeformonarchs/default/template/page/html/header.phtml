@@ -22,8 +22,7 @@
  * @package     base_default
  * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
- */
-/**
+ *
  * @var Mage_Page_Block_Html_Header $this
  */
 ?>
@@ -35,8 +34,14 @@
     
 <?php if ($this->getIsHomePage()):?>
     <div class="header-container">
+        <!--Video de fondo en el sitio -->
+        <!-- -->
+        <!-- -->
         <video src="http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/videos/LOOP.mp4" autoplay loop muted>
         </video>
+        <!-- -->
+        <!-- -->
+        <!--Video de fondo en el sitio -->
         <div class="header">
             <?php echo $this->getChildHtml('topMenu') ?>
             <div class="logo-wrapper">
@@ -52,7 +57,7 @@
 
             </div><span class="glyphicon-menu-down page-scroll-indicator" aria-hidden="true"></span>
         </div>
-        <br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
     </div>
 <?php else:?>
         <div class="not-home">

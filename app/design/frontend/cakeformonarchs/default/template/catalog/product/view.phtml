@@ -63,6 +63,16 @@
             <div class="product-collateral">
                 <span class="PreciousSansMedium"><?php echo $this->helper('catalog/output')->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?></span>
             </div>
+            <br>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="product-collateral">
+                    <?php foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
+                        <div class="box-collateral PreciousSansMedium <?php echo "box-{$alias}"?>">
+                            <?php echo $html; ?>
+                        </div>
+                    <?php endforeach;?>
+                </div>
+            </div>
         </div>
         
         <div class="no-display">
@@ -124,15 +134,9 @@
         }.bind(productAddToCartForm);
     //]]>
     </script>
+    <div class="zoomLens" style="float: left; border: 4px solid rgb(136, 136, 136); width: 350px; height: 350px; position: absolute; border-radius: 179px; left: 252px; top: 87px; display: none; background-image: url(&quot;http://kreativeco.com/cfm/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/o/polosolid-final-2-front_copy.png&quot;); background-position: -573.511px -282.294px; background-repeat: no-repeat;">&nbsp;</div><div class="zoomWindowContainer" style="width: 400px;"><div style="z-index: 999; top: 0px; left: 427px;" class="zoomWindow">&nbsp;</div></div>"
+
     </div>
-    <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="product-collateral">
-            <?php foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
-                <div class="box-collateral PreciousSansMedium <?php echo "box-{$alias}"?>">
-                    <?php echo $html; ?>
-                </div>
-            <?php endforeach;?>
-        </div>
-    </div>
+    <!-- Aqui estaba el bloque de contenido de detalles y infomacion adicional -->
 
 </div>

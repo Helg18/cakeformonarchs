@@ -572,14 +572,20 @@ select {
 	background-size: cover;
 	height: 500px;
 	font-family: "PreciousSerifBook";
-	color:#fff;
+	color:#1e2c47 !important;
 }
 .our-story-text{
 	margin-top:550px;
+	font-family: "PreciousSerifBook";
+	color:#1e2c47 !important;
 }
 .our-story-text h2{
-	font-family: "PreciousSansBold";
-	font-weight: 900;
+	font-family: "PreciousSerifBook";
+	font-weight: 100 !important;
+}
+
+.our-story-text *{
+	color:#1e2c47 !important;
 }
 
 /*	Customer service */
@@ -629,23 +635,18 @@ select {
 
 
 #barra-separadora{
-	border-bottom: 0.2px solid beige;
+	border-bottom: 0.2px solid rgba(202,200,179,0.7);
 	width: 105%;	
 	margin-left: -1.2%;
 	margin-top: 2%;
 	margin-bottom: -4.8%;
 }
 
-#barra-top {
-/*	margin-top: 50px !important;
-	width: 102.2% !important;
-	margin-bottom: 50px !important;
-	padding-bottom: 5px;
-	padding-left: 10px !important;
-	padding-right: 10px !important;*/
+.barra-top1{
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: -18px;
 }
-
-
 
 .barra-top2{
 	top: 0px !important;
@@ -803,13 +804,28 @@ span .PreciousSansMedium a {
 /*    Animaciones -> Seccion 5 -> Presale blazer     */
 /*****************************************************/
 
-.presales-section {
+.presales-section-izq {
 	width: 95%;
 	margin: auto;
+	margin-left: 20% !important;
+	overflow: hidden;
+}
+.presales-section-der {
+	width: 95%;
+	margin: auto;
+	margin-left: -10% !important;
 	overflow: hidden;
 }
 
-.presales-section ul {
+.presales-section-der ul {
+	display: flex;
+	padding: 0;
+	width: 800%;
+	padding-bottom: 20px;
+
+	/*animation: blazers 24s infinite alternate;*/
+}
+.presales-section-izq ul {
 	display: flex;
 	padding: 0;
 	width: 800%;
@@ -818,13 +834,22 @@ span .PreciousSansMedium a {
 	/*animation: blazers 24s infinite alternate;*/
 }
 
-.presales-section li{
+.presales-section-der li{
 	width: 100%;
 	list-style: none !important;
 	/*border: 2px solid #a33;*/
 }
 
-.presales-section img{
+.presales-section-der img{
+	width: 80%;
+}
+.presales-section-izq li{
+	width: 100%;
+	list-style: none !important;
+	/*border: 2px solid #a33;*/
+}
+
+.presales-section-izq img{
 	width: 80%;
 }
 

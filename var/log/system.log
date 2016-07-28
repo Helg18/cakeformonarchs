@@ -10999,3 +10999,421 @@
 [5] /home/kreati22/public_html/cfm/app/Mage.php:684
 [6] /home/kreati22/public_html/cfm/index.php:83
 </pre>
+2016-07-27T18:40:58+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:40:58+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:40:58+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:41:47+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:41:47+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:41:47+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:42:00+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:42:00+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:42:00+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:42:32+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:42:32+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:42:32+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:54:45+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:54:45+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T18:54:45+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:05:28+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:05:28+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:05:28+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:05:53+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:05:53+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:05:53+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:19:20+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:19:20+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:19:20+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:26:51+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:26:51+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:26:51+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:27:53+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:27:53+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:27:53+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:28:09+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:28:09+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:28:09+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:31:18+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:31:18+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:31:18+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:31:36+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:31:36+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:31:36+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:33:12+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:33:12+00:00 ERR (3): Warning: include(Mage/Sizechart/Model/Attribute/Source/Module.php): failed to open stream: No such file or directory  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T19:33:12+00:00 ERR (3): Warning: include(): Failed opening 'Mage/Sizechart/Model/Attribute/Source/Module.php' for inclusion (include_path='/home/kreati22/public_html/cfm/app/code/local:/home/kreati22/public_html/cfm/app/code/community:/home/kreati22/public_html/cfm/app/code/core:/home/kreati22/public_html/cfm/lib:.:/usr/lib/php:/usr/local/lib/php:/home/kreati22/php')  in /home/kreati22/public_html/cfm/lib/Varien/Autoload.php on line 94
+2016-07-27T20:13:22+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:13:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:13:48+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:13:58+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:14:05+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:14:26+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:14:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:14:52+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:15:11+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:15:26+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:15:33+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:15:37+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:15:57+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:16:15+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:16:20+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:16:29+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:16:34+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:16:42+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:16:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:17:12+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:17:16+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:17:25+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:24:27+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:24:51+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:25:18+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:25:30+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:25:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:26:25+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:26:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:27:09+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:27:22+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:27:33+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:28:00+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:28:29+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:29:05+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T20:29:22+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:02:02+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:02:50+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:02:50+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:03:40+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:25:11+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:25:11+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T21:27:14+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T22:53:36+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T22:54:47+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T22:57:44+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>
+2016-07-27T23:01:35+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:52
+[1] /home/kreati22/public_html/cfm/lib/Zend/Controller/Response/Abstract.php:768
+[2] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Response/Http.php:84
+[3] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Controller/Varien/Front.php:184
+[4] /home/kreati22/public_html/cfm/app/code/core/Mage/Core/Model/App.php:365
+[5] /home/kreati22/public_html/cfm/app/Mage.php:684
+[6] /home/kreati22/public_html/cfm/index.php:83
+</pre>

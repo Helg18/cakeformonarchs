@@ -27,24 +27,24 @@
 <?php /** @var $this Mage_Checkout_Block_Cart_Shipping */ ?>
 <div class="shipping">
     <div class="page-title">
-        <h2><?php echo $this->__('Estimate Shipping and Tax') ?></h2>
+        <h2><span><?php echo $this->__('Estimate Shipping and Tax') ?></span></h2>
     </div>
     
     <div class="shipping-form">
        <form action="<?php echo $this->getFormActionUrl() ?>" method="post" id="shipping-zip-form" class="form-group">
-            <p><?php echo $this->__('Enter your destination to get a shipping estimate.') ?></p>
+            <p><span><?php echo $this->__('Enter your destination to get a shipping estimate.') ?></span></p>
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <ul class="form-list list-unstyled list-inline">
                         <li>
-                            <label for="country" class="required"><em>*</em><?php echo $this->__('Country') ?></label>
+                            <label for="country" class="required"><em>*</em> <span><?php echo $this->__('Country') ?></span></label>
                             <div class="input-box">
                                 <?php echo Mage::getBlockSingleton('directory/data')->getCountryHtmlSelect($this->getEstimateCountryId()) ?>
                             </div>
                         </li>
                     <?php //if($this->getStateActive()): ?>
                         <li>
-                            <label for="region_id"<?php if ($this->isStateProvinceRequired()) echo ' class="required"' ?>><?php if ($this->isStateProvinceRequired()) echo '<em>*</em>' ?><?php echo $this->__('State/Province') ?></label>
+                            <label for="region_id"<?php if ($this->isStateProvinceRequired()) echo ' class="required"' ?>><?php if ($this->isStateProvinceRequired()) echo '<em>*</em>' ?><span><?php echo $this->__('State/Province') ?></span></label>
                             <div class="input-box">
                                 <select id="region_id" name="region_id" title="<?php echo Mage::helper('core')->quoteEscape($this->__('State/Province')) ?>" style="display:none;"<?php echo ($this->isStateProvinceRequired() ? ' class="validate-select"' : '') ?>>
                                     <option value=""><?php echo $this->__('Please select region, state or province') ?></option>
@@ -67,7 +67,7 @@
                         </li>
                     <?php endif; ?>
                         <li>
-                            <label for="postcode"<?php if ($this->isZipCodeRequired()) echo ' class="required"' ?>><?php if ($this->isZipCodeRequired()) echo '<em>*</em>' ?><?php echo $this->__('Zip/Postal Code') ?></label>
+                            <label for="postcode"<?php if ($this->isZipCodeRequired()) echo ' class="required"' ?>><span><?php if ($this->isZipCodeRequired()) echo '<em>*</em>' ?><?php echo $this->__('Zip/Postal Code') ?></span></label>
                             <div class="input-box">
                                 <input class="input-text validate-postcode<?php if ($this->isZipCodeRequired()):?> required-entry<?php endif;?>" type="text" id="postcode" name="estimate_postcode" value="<?php echo $this->escapeHtml($this->getEstimatePostcode()) ?>" />
                             </div>

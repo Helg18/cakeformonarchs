@@ -27,9 +27,9 @@
 <form id="discount-coupon-form" action="<?php echo $this->getFormActionUrl() ?>" method="post" class="form-group">
     <div class="discount">
         <div class="page-title">
-            <h2><?php echo $this->__('Discount Codes') ?></h2>
+            <h2><span><?php echo $this->__('Discount Codes') ?></span></h2>
         </div>
-        <label for="coupon_code"><?php echo $this->__('Enter your coupon code if you have one.') ?></label>
+        <span><?php echo $this->__('Enter your coupon code if you have one.') ?></span>
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <input type="hidden" name="remove" id="remove-coupone" value="0" />
@@ -37,9 +37,9 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="buttons-set">
-                    <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Apply Coupon')) ?>" class="button" onclick="discountForm.submit(false)" value="<?php echo Mage::helper('core')->quoteEscape($this->__('Apply Coupon')) ?>"><span><span><?php echo $this->__('Apply Coupon') ?></span></span></button>
+                    <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Apply Coupon')) ?>" class="button" onclick="discountForm.submit(false)" value="<?php echo Mage::helper('core')->quoteEscape($this->__('Apply Coupon')) ?>"><span><?php echo $this->__('Apply Coupon') ?></span></button>
                 <?php if(strlen($this->getCouponCode())): ?>
-                    &nbsp; <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Cancel Coupon')) ?>" class="button" onclick="discountForm.submit(true)" value="<?php echo Mage::helper('core')->quoteEscape($this->__('Cancel Coupon')) ?>"><span><span><?php echo $this->__('Cancel Coupon') ?></span></span></button>
+                    &nbsp; <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Cancel Coupon')) ?>" class="button" onclick="discountForm.submit(true)" value="<?php echo Mage::helper('core')->quoteEscape($this->__('Cancel Coupon')) ?>"><span><?php echo $this->__('Cancel Coupon') ?></span></button>
                     <?php endif;?>
                 </div>
             </div>

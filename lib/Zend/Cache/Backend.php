@@ -211,8 +211,8 @@ class Zend_Cache_Backend
         if ($this->_isGoodTmpDir('/tmp')) {
             return '/tmp';
         }
-        if ($this->_isGoodTmpDir('/home/net1/public_html/zierconsulting.com/cakeformonarchs/tmp')) {
-            return '/home/net1/public_html/zierconsulting.com/cakeformonarchs/tmp';
+        if ($this->_isGoodTmpDir('\\temp')) {
+            return '\\temp';
         }
         Zend_Cache::throwException('Could not determine temp directory, please specify a cache_dir manually');
     }

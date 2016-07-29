@@ -36,7 +36,7 @@
     <div class="header-container">
         <!--Video de fondo en el sitio -->
         <!-- -->
-        <!-- -->
+        <!-- - ->
         <video src="http://kreativeco.com/cfm/skin/frontend/cakeformonarchs/default/videos/LOOP.mp4" autoplay loop muted>
         </video>
         <!-- -->
@@ -62,8 +62,7 @@
 <?php else:?>
         <div class="not-home">
             <?php echo $this->getChildHtml('topMenu') ?>
-				<div class="espaciotope" id="espaciotope"></div>
-            <h1 class="logo-top text-center">
+            <h1 class="logo-top  text-center">
                 <?php if(!$this->getLogoSrc()): ?> <strong><?php echo $this->getLogoAlt() ?>  </strong><?php endif ?>
                 <br><br><br><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo text-center">
                    <br><img src="<?php echo $this->getSkinUrl("images/logo-top.png") ?>" alt="<?php echo $this->getLogoAlt() ?>" />

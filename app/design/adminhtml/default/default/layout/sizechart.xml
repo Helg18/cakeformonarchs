@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout>
+<adminhtml_system_config_edit>
+		<reference name="head">
+            <action method="addJs"><script>sizechart/jquery/jquery.js</script></action>
+            <action method="addJs"><script>sizechart/jquery/jquery-noconflict.js</script></action>
+			<action method="addJs"><file>sizechart/minicolors/jquery.miniColors.js</file></action>
+			<action method="addItem"><type>js_css</type><name>sizechart/minicolors/jquery.miniColors.css</name></action>
+		</reference>
+	</adminhtml_system_config_edit>
+
+  <sizechart_adminhtml_sizechart_index>
+	<reference name="content">
+	  <block type="sizechart/adminhtml_sizechart" name="sizechart" />
+	</reference>
+  </sizechart_adminhtml_sizechart_index>
+</layout>

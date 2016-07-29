@@ -1,0 +1,50 @@
+.size-table{
+            border: 1px solid #ddd;
+        }
+        .chart-img{
+            float: left;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .size-chart{
+            float: left;   
+            text-align: center;
+            margin: 0 20px 0;
+        }
+        .size-chart-onpage{
+            float: none;   
+            text-align: center;
+            margin: 0;
+        }
+        .size-chart-title{
+            font-size: 24px;
+            text-align: center;
+            margin: 15px 0 10px;
+        }
+        .size-table td {
+            width: 75px;
+            border-right: 1px solid #fff;
+            text-align: center;
+            background-color: #f0f0f0;            
+            padding: 3px 0px;
+            font-size: 12px;
+        }
+        .size-table tr {
+            border-bottom: 1px solid #fff;
+        }
+        .size-table tr:last-child {
+            border-bottom: 1px solid #ddd;
+        }
+        .size-table td:first-child{
+            background-color: #eee;
+            font-weight: bold;
+        }
+        .size-table td:last-child{
+            border-right: none; 
+        }
+        #fancybox-content{
+            background-color: #fff;
+        }
+        .set-link-size a,.set-link-size img{
+            display: inline-block;
+        }

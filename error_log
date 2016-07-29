@@ -211,3 +211,11 @@
 [14-Jul-2016 01:51:00 UTC] PHP Notice:  Undefined index: resource in /home/net1/public_html/zierconsulting.com/cakeformonarchs/magento-api.php on line 17
 [14-Jul-2016 01:51:25 UTC] PHP Notice:  Undefined index: resource in /home/net1/public_html/zierconsulting.com/cakeformonarchs/magento-api.php on line 17
 [14-Jul-2016 01:51:29 UTC] PHP Notice:  Undefined index: resource in /home/net1/public_html/zierconsulting.com/cakeformonarchs/magento-api.php on line 17
+[29-Jul-2016 15:33:43 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[29-Jul-2016 16:06:59 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[29-Jul-2016 16:07:36 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[29-Jul-2016 16:14:45 UTC] PHP Fatal error:  Call to a member function getSource() on boolean in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Product.php on line 1385
+[29-Jul-2016 16:17:28 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getUsedProducts() in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Resource/Product/Type/Configurable/Attribute/Collection.php on line 160
+[29-Jul-2016 16:19:33 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getUsedProducts() in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Resource/Product/Type/Configurable/Attribute/Collection.php on line 160
+[29-Jul-2016 16:19:48 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getUsedProducts() in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Resource/Product/Type/Configurable/Attribute/Collection.php on line 160
+[29-Jul-2016 16:20:44 UTC] PHP Fatal error:  Call to undefined method Mage_Catalog_Model_Product_Type_Simple::getUsedProducts() in /home/kreati22/public_html/cfm/app/code/core/Mage/Catalog/Model/Resource/Product/Type/Configurable/Attribute/Collection.php on line 160

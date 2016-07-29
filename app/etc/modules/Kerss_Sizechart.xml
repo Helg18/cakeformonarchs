@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Kerss_Sizechart>
+      <active>true</active>
+      <codePool>community</codePool>
+    </Kerss_Sizechart>
+  </modules>
+</config>

@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <kersstab translate="label" module="sizechart">
+            <label>Kerss</label>
+            <sort_order>200</sort_order>
+        </kersstab>
+    </tabs>
+    <sections>
+        <scsection  translate="label" module="sizechart">                    
+            <label>Sizechart Settings</label>
+            <tab>kersstab</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>200</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>            
+            <groups>
+                <kerssgroup translate="label"> 
+                    <label>General</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <scenable translate="label">
+                            <label>Enable Sizechart</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enable sizechart module</comment>
+                        </scenable>
+                        <enablejq translate="label">
+                            <label>Enable jQuery</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Enable jQuery.min.js</comment>
+                        </enablejq>
+                        <scimage translate="label">
+                            <label>Sizechart icon</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">sizechart</upload_dir>
+                            <base_url type="media" scope_info="1">sizechart</base_url>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>display icon before sizechart link</comment>
+                        </scimage>
+                        <sclink translate="label">
+                            <label>Sizechart link text</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sclink>
+                    </fields>
+                </kerssgroup>
+                <popupgroup translate="label"> 
+                    <label>Sizechart Popup Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <popupwidth translate="label">
+                            <label>Popup Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </popupwidth>
+                        <popupheight translate="label">
+                            <label>Popup Height</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </popupheight>
+                        <overlayShow translate="label">
+                            <label>Show overlay</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_YesNo</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Show overlay when popup open.]]></comment>
+                        </overlayShow>
+                        <overlayColor translate="label">
+                            <label>Overlay Color</label>
+                            <frontend_type>text</frontend_type>
+							<frontend_model>sizechart/adminhtml_system_config_form_field_color</frontend_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[select overlay color.]]></comment>
+                        </overlayColor>
+                        <centerOnScroll translate="label">
+                            <label>Center On Scroll</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_YesNo</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[When true, FancyBox is centered while scrolling page]]></comment>
+                        </centerOnScroll>
+                        <openEffect translate="label">
+                            <label>Open Effect</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_Effect</source_model>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Animation effect ('elastic', 'fade' or 'none') for each transition type]]></comment>
+                        </openEffect>
+						<closeEffect translate="label">
+                            <label>Close Effect</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_Effect</source_model>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Animation effect ('elastic', 'fade' or 'none') for each transition type]]></comment>
+                        </closeEffect>
+						<speedIn translate="label">
+                            <label>Popup in speed</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment><![CDATA[Speed of the fade and elastic transitions, in milliseconds]]></comment>
+                        </speedIn>
+						<speedOut translate="label">
+                            <label>Popup out speed</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>110</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment><![CDATA[Speed of the fade and elastic transitions, in milliseconds]]></comment>
+                        </speedOut>
+						<showCloseButton translate="label">
+                            <label>Show Close Button</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_YesNo</source_model>
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Show close button for popup]]></comment>
+                        </showCloseButton>
+						<titleShow translate="label">
+                            <label>Show Title</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_YesNo</source_model>
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Show popup title]]></comment>
+                        </titleShow>
+						<enableEscapeButton translate="label">
+                            <label>Enable Escape Button</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Kerss_Sizechart_Model_Adminhtml_System_Config_Source_YesNo</source_model>
+                            <sort_order>140</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[Close popup using escape key]]></comment>
+                        </enableEscapeButton>
+                    </fields>
+                </popupgroup>
+                <infogroup translate="label"> 
+                    <label>Product Information</label>
+                    <frontend_type>text</frontend_type>
+                    <comment><![CDATA[<tr><td colspan="5">
+                                <h3> Product Sizechart Module </h3>
+                                    <h4><b>Guide</b></h4>
+                                    <ul>
+                                            <li><a href="http://www.kersstech.com/" target="_blank"> 1) Forum Support</a></li>
+                                            <li><a href="http://www.kersstech.com/" target="_blank"> 2) Submit A Request</a></li>
+                                            <li><a href="http://www.kersstech.com/" target="_blank"> 3) Submit A Ticket</a></li>
+                                    </ul>
+                                    <br>
+                                    <div style="font-size:11px">@Copyright: <i><a href="http://www.kersstech.com" target="_blank">Kersstech.com</a></i></div>
+                                </td></tr>
+                            ]]>
+                    </comment>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </infogroup>
+            </groups>
+        </scsection>
+    </sections>
+</config>

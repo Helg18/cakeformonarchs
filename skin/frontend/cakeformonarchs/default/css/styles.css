@@ -102,6 +102,14 @@ ul{
     padding: 5px;
     margin: 10px 0px;
 }
+
+
+.input-text2{
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 0px;
+    color: #1e2c47;	
+}
 .fieldset h1{
 	font-family: "PreciousSansBold";
 	font-weight: 900;

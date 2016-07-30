@@ -28,7 +28,7 @@
 ?>
 <?php echo $this->getMessagesBlock()->toHtml() ?>
 <div class="page-title">
-    <h1><?php echo $this->__('My Applications') ?></h1>
+    <h1><span><?php echo $this->__('My Applications') ?></span></h1>
 </div>
 <?php if ($this->getCollection() && $this->count()): ?>
     <?php echo $this->getToolbarHtml() ?>
@@ -38,8 +38,8 @@
             <col width="110" align="right" />
             <thead>
                 <tr>
-                    <th><?php echo $this->__('App Name') ?></th>
-                    <th><?php echo $this->__('Status') ?></th>
+                    <th><span><?php echo $this->__('App Name') ?></span></th>
+                    <th><span><?php echo $this->__('Status') ?></span></th>
                     <th>&nbsp;</th>
                 </tr>
             </thead>
@@ -68,5 +68,5 @@
         </script>
     <?php echo $this->getToolbarHtml() ?>
 <?php else: ?>
-    <p><?php echo $this->__('You have no applications.'); ?></p>
+    <p><span><?php echo $this->__('You have no applications.'); ?></span></p>
 <?php endif; ?>

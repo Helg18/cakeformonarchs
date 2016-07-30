@@ -30,18 +30,18 @@
 ?>
 <?php $_order = $this->getOrder() ?>
 <div class="page-title title-buttons">
-    <h1><?php echo $this->__('My Orders - Details') ?></h1>
+    <h1><span><?php echo $this->__('My Orders - Details') ?></span></h1>
     <button class="button"><span><span><?php echo $this->__('Print All Invoices') ?></span></span></button>
 </div>
-<h3><?php echo $this->__('Order #%s', $_order->getRealOrderId()) ?></h3>
+<h3><span><?php echo $this->__('Order #%s', $_order->getRealOrderId()) ?></span></h3>
 <?php foreach ($this->getInvoices() as $_invoice): ?>
 <div class="page-title">
-    <h3><?php echo $this->__('Invoice #%s', $_invoice->getIncrementId()) ?></h3>
+    <h3><span><?php echo $this->__('Invoice #%s', $_invoice->getIncrementId()) ?></span></h3>
     <a href="#" class="link-print"><?php echo $this->__('Print Invoice') ?></a>
 </div>
 <div class="col2-set">
     <div class="col-1">
-        <h4><?php echo $this->__('Shipping Address') ?></h4>
+        <h4><span><?php echo $this->__('Shipping Address') ?></span></h4>
         <?php $_shipping = $_invoice->getShippingAddress() ?>
         <address><?php echo $_shipping->getFirstname() ?> <?php echo $_shipping->getLastname() ?><br />
         <?php echo $_shipping->getCompany() ?><br />
@@ -54,7 +54,7 @@
         </address>
     </div>
     <div class="col-2">
-        <h4><?php echo $this->__('Billing Address') ?></h4>
+        <h4><span><?php echo $this->__('Billing Address') ?></span></h4>
         <?php $_billing = $_invoice->getbillingAddress() ?>
         <address><?php echo $_billing->getFirstname() ?> <?php echo $_billing->getLastname() ?><br />
         <?php echo $_billing->getCompany() ?><br />
@@ -70,25 +70,25 @@
 <br />
 <div class="col2-set">
     <div class="col-1">
-        <h4><?php echo $this->__('Shipping Method') ?></h4>
+        <h4><span><?php echo $this->__('Shipping Method') ?></span></h4>
         <?php echo $this->escapeHtml($_order->getShippingMethod()) ?> <?php echo $this->escapeHtml($_order->getShippingDescription()) ?>
     </div>
     <div class="col-2">
-        <h4><?php echo $this->__('Payment Method') ?></h4>
+        <h4><span><?php echo $this->__('Payment Method') ?></span></h4>
         <?php $_payment = $_order->getPayment() ?>
         <?php echo $_payment->getMethod() ?>: <?php echo $_payment->getCcType() ?> xxxx<?php echo $_payment->getCcLast4() ?>
     </div>
 </div>
 <br />
-<h4><?php echo $this->__('Items Ordered') ?></h4>
+<h4><span><?php echo $this->__('Items Ordered') ?></span></h4>
 <table class="data-table">
     <thead>
         <tr>
             <th><?php echo $this->__('Product Name') ?></th>
-            <th class="a-right" width="15%"><?php echo $this->__('Price') ?></th>
-            <th class="a-center" width="10%"><?php echo $this->__('Qty Ordered') ?></th>
-            <th class="a-center" width="10%"><?php echo $this->__('Qty Shipped') ?></th>
-            <th class="a-right" width="20%"><?php echo $this->__('Subtotal') ?></th>
+            <th class="a-right" width="15%"><span><?php echo $this->__('Price') ?></span></th>
+            <th class="a-center" width="10%"><span><?php echo $this->__('Qty Ordered') ?></span></th>
+            <th class="a-center" width="10%"><span><?php echo $this->__('Qty Shipped') ?></span></th>
+            <th class="a-right" width="20%"><span><?php echo $this->__('Subtotal') ?></span></th>
         </tr>
     </thead>
     <tbody>
@@ -97,18 +97,18 @@
         <?php $_index = 0; ?>
         <?php foreach ($_items as $_item): ?>
         <tr<?php echo ($_index++ > $_count ? ' class="last"' : '') ?>>
-            <td><?php echo $this->escapeHtml($_item->getProductName()) ?></td>
-            <td class="a-right"><?php echo $_order->formatPrice($_item->getPrice()*1) ?></td>
-            <td class="a-center"><?php echo $_item->getQty()*1 ?></td>
-            <td class="a-center"><?php echo $_item->getQty()*1 ?></td>
-            <td class="a-right"><?php echo $_order->formatPrice($_item->getRowTotal()*1) ?></td>
+            <td><span><?php echo $this->escapeHtml($_item->getProductName()) ?></span></td>
+            <td class="a-right"><span><?php echo $_order->formatPrice($_item->getPrice()*1) ?></span></td>
+            <td class="a-center"><span><?php echo $_item->getQty()*1 ?></span></td>
+            <td class="a-center"><span><?php echo $_item->getQty()*1 ?></span></td>
+            <td class="a-right"><span><?php echo $_order->formatPrice($_item->getRowTotal()*1) ?></span></td>
             <?php endforeach; ?>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="4" class="a-right"><?php echo $this->__('Order Subtotal') ?></td>
-            <td class="a-right"><?php echo $_order->formatPrice($_invoice->getSubtotal()) ?></td>
+            <td colspan="4" class="a-right"><span><?php echo $this->__('Order Subtotal') ?></span></td>
+            <td class="a-right"><span><?php echo $_order->formatPrice($_invoice->getSubtotal()) ?></span></td>
         </tr>
     </tfoot>
 </table>

@@ -26,7 +26,7 @@
 ?>
 <?php /* @var $this Mage_Sales_Block_Billing_Agreements */ ?>
 <div class="page-title">
-    <h1><?php echo $this->__('Billing Agreements') ?></h1>
+    <h1><span><?php echo $this->__('Billing Agreements') ?></span></h1>
 </div>
 
 <?php echo $this->getMessagesBlock()->toHtml() ?>
@@ -73,7 +73,7 @@
     <?php $paymentMethods = $this->getWizardPaymentMethodOptions() ?>
     <?php if ($paymentMethods): ?>
         <div class="info-box">
-            <h2 class="box-title"><?php echo $this->__('New Billing Agreement') ?></h2>
+            <h2 class="box-title"><span><?php echo $this->__('New Billing Agreement') ?></span></h2>
             <form action="<?php echo $this->getCreateUrl() ?>" method="post">
                 <div class="box-content">
                     <p><?php echo $this->__('You will be redirected to the payment system website.') ?></p>

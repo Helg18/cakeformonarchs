@@ -1,0 +1,18 @@
+<?xml version="1.0"?>   
+<layout version="1.0.0">   
+
+    <catalog_product_view>
+        <reference name="head">
+	    <action method="addItem"><type>skin_css</type><name>css/productzoom.css</name><params/></action>
+			    <action method="addItem"><type>skin_css</type><name>css/zoom.carousel.css</name><params/></action>
+
+
+        </reference>
+        <reference name="product.info.media">
+            <action method="setTemplate" ifconfig="productzoom/general/enabled"><template>productzoom/media.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+
+
+</layout>   
+	

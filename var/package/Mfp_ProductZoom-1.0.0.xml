@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mfp_ProductZoom</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension replaces the image gallery with the jquery inner zoom slider widget.&#xD;
+</summary>
+    <description>This extension replaces the image gallery with the jquery inner zoom slider widget.&#xD;
+</description>
+    <notes>This extension replaces the image gallery with the jquery inner zoom slider widget.&#xD;
+</notes>
+    <authors><author><name>harpreet</name><user>harpreet</user><email>harpreetsinghphp@gmail.com</email></author></authors>
+    <date>2016-02-26</date>
+    <time>14:14:29</time>
+    <contents><target name="magecommunity"><dir name="Mfp"><dir name="ProductZoom"><dir name="Block"><file name="Index.php" hash="7177bcc4d21b905b488000fc8b8312a1"/></dir><dir name="Helper"><file name="Data.php" hash="6c398f8de91e45daf7a2268f285804cf"/></dir><dir name="controllers"><file name="IndexController.php" hash="ccd9a790317db4d66dd28b3348f8884e"/></dir><dir name="etc"><file name="config.xml" hash="c84121237fc2fe98afb250cafd45e3d8"/><file name="system.xml" hash="fe81be2c9916fa140eded63e0b01440c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mfp_ProductZoom.xml" hash="0fe33c8d39aca69cdf1f4448217ef18f"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="productzoom.xml" hash="a8199ac4e43b363fee3aceadee3e6749"/></dir><dir name="template"><dir name="productzoom"><file name="media.phtml" hash="8cbf223710c5218b5104f2aae9a8b56e"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="productzoom.css" hash="2cefe2d1cb1f7741e90631710a4c51a4"/><file name="zoom.carousel.css" hash="f78dbe336aea03003ab9d3578d088cd8"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="mfp"><file name="productzoom.js" hash="8803185ed6b5bf4659e1305baa583e8c"/><file name="zoom.carousel.min.js" hash="88d0fe722f04973e2888b58a63aa0570"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

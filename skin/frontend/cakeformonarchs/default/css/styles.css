@@ -800,7 +800,7 @@ select {
 	min-width: 105.2% !important;
 	margin-left: -4% !important;
 	overflow: hidden;
-	min-height: 510px!important;
+	min-height: 710px!important;
 }
 
 .box-collateral * {
@@ -826,26 +826,10 @@ span .PreciousSansMedium a {
 /*****************************************************/
 
 .polo-section {
-	overflow: hidden;
 	margin-bottom: -60px
 }
-
-.polo-section li{
-	/*margin-left: 30%;*/
-	list-style: none !important;
-}
-
-
-.polo-section  img{
-	height: 80% !important;
-}
-
-.polo-section ul {
-	/*display: flex;*/
-	padding: 0;
-	/*width: 100%;*/
-
-	/*animation: polos 10s infinite alternate;*/
+.polo-izquierdo{
+	margin-left: 10% !important;
 }
 
 @keyframes polos {
@@ -867,6 +851,223 @@ span .PreciousSansMedium a {
 	85%{ margin-left: -300%; }	
 	100%{ margin-left: -300%; }
 }
+
+
+/*****************************************************/
+/*   Animaciones fade in fade out en polos sections  */
+/*****************************************************/
+
+
+#crossfade{ 
+background: green;
+}
+
+#crossfade > img { 
+	width: 80%;
+	min-height: 80%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: transparent;
+	opacity: 0;
+	z-index: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-animation: imageAnimation 20s linear infinite 0s;
+	-moz-animation: imageAnimation 20s linear infinite 0s;
+	-o-animation: imageAnimation 20s linear infinite 0s;
+	-ms-animation: imageAnimation 20s linear infinite 0s;
+	animation: imageAnimation 20s linear infinite 0s;
+}
+
+#crossfade > img:nth-child(2)  { 
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-o-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	animation-delay: 4s; 
+}
+#crossfade > img:nth-child(3) { 
+	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
+	-o-animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	animation-delay: 8s; 
+}
+#crossfade > img:nth-child(4) { 
+	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
+	-o-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	animation-delay: 12s; 
+}
+
+
+
+#crossfades > img { 
+	width: 80%;
+	min-height: 80%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: 30% !important;
+	color: transparent;
+	opacity: 0;
+	z-index: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-animation: imageAnimation 20s linear infinite 0s;
+	-moz-animation: imageAnimation 20s linear infinite 0s;
+	-o-animation: imageAnimation 20s linear infinite 0s;
+	-ms-animation: imageAnimation 20s linear infinite 0s;
+	animation: imageAnimation 20s linear infinite 0s;
+}
+
+#crossfades > img:nth-child(2)  { 
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-o-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	animation-delay: 4s; 
+}
+#crossfades > img:nth-child(3) { 
+	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
+	-o-animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	animation-delay: 8s; 
+}
+#crossfades > img:nth-child(4) { 
+	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
+	-o-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	animation-delay: 12s; 
+}
+
+@-webkit-keyframes imageAnimation { 
+	0% { opacity: 0;
+		-webkit-animation-timing-function: ease-in; }
+		8% { opacity: 1;
+			-webkit-animation-timing-function: ease-out; }
+			17% { opacity: 1 }
+			25% { opacity: 0 }
+			100% { opacity: 0 }
+		}
+
+		@-moz-keyframes imageAnimation { 
+			0% { opacity: 0;
+				-moz-animation-timing-function: ease-in; }
+				8% { opacity: 1;
+					-moz-animation-timing-function: ease-out; }
+					17% { opacity: 1 }
+					25% { opacity: 0 }
+					100% { opacity: 0 }
+				}
+
+				@-o-keyframes imageAnimation { 
+					0% { opacity: 0;
+						-o-animation-timing-function: ease-in; }
+						8% { opacity: 1;
+							-o-animation-timing-function: ease-out; }
+							17% { opacity: 1 }
+							25% { opacity: 0 }
+							100% { opacity: 0 }
+						}
+
+						@-ms-keyframes imageAnimation { 
+							0% { opacity: 0;
+								-ms-animation-timing-function: ease-in; }
+								8% { opacity: 1;
+									-ms-animation-timing-function: ease-out; }
+									17% { opacity: 1 }
+									25% { opacity: 0 }
+									100% { opacity: 0 }
+								}
+
+								@keyframes imageAnimation { 
+									0% { opacity: 0;
+										animation-timing-function: ease-in; }
+										8% { opacity: 1;
+											animation-timing-function: ease-out; }
+											17% { opacity: 1 }
+											25% { opacity: 0 }
+											100% { opacity: 0 }
+										}
+
+/*****************************************************/
+/*    Animaciones -> de titulos-> Polos-sections     */
+/*****************************************************/
+#titulos  {
+	-webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 8s; /* Firefox < 16 */
+	-ms-animation: fadein 8s; /* Internet Explorer */
+	-o-animation: fadein 8s; /* Opera < 12.1 */
+	animation: fadein 8s;
+}
+
+@keyframes fadein {
+	from { 
+		opacity: 0;
+		margin-left: -20%;
+	}
+	to   { 
+		opacity: 1; 
+		margin-left: 0;
+	}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+	from { 
+		opacity: 0;
+		margin-left: -20%;
+	}
+	to   { 
+		opacity: 1; 
+		margin-left: 0;
+	}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+	from { 
+		opacity: 0;
+		margin-left: -20%;
+	}
+	to   { 
+		opacity: 1; 
+		margin-left: 0;
+	}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+	from { 
+		opacity: 0;
+		margin-left: -20%;
+	}
+	to   { 
+		opacity: 1; 
+		margin-left: 0;
+	}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+	from { 
+		opacity: 0;
+		margin-left: -20%;
+	}
+	to   { 
+		opacity: 1; 
+		margin-left: 0;
+	}
+}
+
+
+
+
+
+
 
 
 /*****************************************************/

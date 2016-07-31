@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Mfp_ProductZoom>
+      <version>1.0.0</version>
+    </Mfp_ProductZoom>
+  </modules>
+  <frontend>
+    <routers>
+      <productzoom>
+        <use>standard</use>
+          <args>
+            <module>Mfp_ProductZoom</module>
+            <frontName>productzoom</frontName>
+          </args>
+      </productzoom>
+    </routers>
+		<layout>
+		  <updates>
+			<productzoom>
+			  <file>productzoom.xml</file>
+			</productzoom>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <productzoom>
+        <class>Mfp_ProductZoom_Helper</class>
+      </productzoom>
+    </helpers>
+	<blocks>
+	  <productzoom>
+		<class>Mfp_ProductZoom_Block</class>
+	  </productzoom>
+	</blocks>
+  </global>
+  
+    	<adminhtml>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<productzoom translate="title" module="productzoom">
+											<title>Product zoomer</title>
+										</productzoom>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>
+
+  
+</config> 

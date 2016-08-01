@@ -1,0 +1,83 @@
+<?php
+$helper = Mage::helper('sizechart');
+
+//get system config values
+$enableSizechart = $helper->isEnableSizechart();
+if ($enableSizechart) {
+
+    $_product = $this->getProduct();
+    $sizechart_id = $_product->getSizechart();
+    $scCollection = $helper->getSizechartCollection($sizechart_id);
+    $sizechartLinkText = $helper->getSizechartLinkText();
+    $sizechartIcon = $helper->getSizechartIcon();
+	
+    if (!isset($sizechartLinkText)) {
+        $sizechartLinkText = 'Measurement Chart';
+    }
+
+    $scImage = '';
+    $scName = '';
+    $scDisplay = 0;
+    foreach ($scCollection as $scData) {
+        $scName = $scData->getName();
+        $scImage = $scData->getImage();
+        $scDescription = $scData->getDescription();
+        $scDisplay = $scData->getDisplay();
+    }
+    $imageUrl = $helper->getMediaUrl($scImage);
+    ?>
+    <?php if ($scDisplay == 0) { ?>
+        <div class="set-link-size">
+            <?php
+            if (isset($sizechartIcon) && $sizechartIcon != '') {
+                $iconPath = Mage::getBaseUrl('media') . 'sizechart' . '/' . $sizechartIcon;
+                ?>
+                <img src="<?php echo $iconPath; ?>" >
+            <?php } ?>
+            <a id="reference-first" title="sizechart" href="#sizechart"><?php echo $sizechartLinkText; ?></a>
+        </div>
+        <div style="display: none;">
+            <div id="sizechart">
+                <div class="chart-img">
+                    <img src="<?php echo $imageUrl; ?>" alt="<?php echo $scName; ?>">
+                </div>
+                <div class="size-chart">
+                    <div class="size-chart-title">
+                        <?php echo $scName; ?>
+                    </div>
+                    <?php echo $scDescription; ?>
+                </div>
+            </div>
+        </div>
+    <?php } else { ?>
+        <div id="sizechart">
+            <div class="chart-img">
+                <img src="<?php echo $imageUrl; ?>" alt="<?php echo $scName; ?>">
+            </div>
+            <div class="size-chart-onpage">
+                <div class="size-chart-title">
+                    <?php echo $scName; ?>
+                </div>
+                <?php echo $scDescription; ?>
+            </div>
+        </div>
+    <?php } ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery("#reference-first").fancybox({
+                'width' : <?php echo $helper->getPopupwidth(); ?>,
+                'height' : <?php echo $helper->getPopupheight(); ?>,
+				'overlayShow' : <?php echo $helper->getOverlayShow(); ?>,
+                'overlayColor' : '<?php echo $helper->getOverlayColor(); ?>',
+                'centerOnScroll' : <?php echo $helper->getCenterOnScroll(); ?>,
+                'openEffect' : '<?php echo $helper->getOpenEffect(); ?>',
+                'closeEffect' : '<?php echo $helper->getCloseEffect(); ?>',
+				'speedIn' : <?php echo $helper->getSpeedIn(); ?>,
+				'speedOut' : <?php echo $helper->getSpeedOut(); ?>,
+				'showCloseButton' : <?php echo $helper->getShowCloseButton(); ?>,
+				'titleShow': <?php echo $helper->getTitleShow(); ?>,
+				'enableEscapeButton': <?php echo $helper->getEnableEscapeButton(); ?>
+            });
+        });
+    </script>
+<?php } ?>

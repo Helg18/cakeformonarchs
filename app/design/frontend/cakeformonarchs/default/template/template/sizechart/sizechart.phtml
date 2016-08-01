@@ -1,0 +1,78 @@
+<?php
+$config = $this->getConfig();
+$sizeChartWitdh = $this->getLeftColumnWidth();
+?>
+<div id="sizechartbox" style="display:none;">
+    <div id="sizechart">
+        <div>
+            <h2>Size Chart</h2>
+        </div>
+        <div class="left-column" style="width: <?php echo $sizeChartWitdh ?>">
+            <div class="size">
+                <div class="measurements">
+                    <p>Find your size for this dress:</p>
+                    <form id="sizechart_form" name="sizechart_form">
+                        <table>
+                            <tr>
+                                <td><label for="bust">Bust:</label><br /><input name="bust" value="" type="text" size="3" id="bust" /></td>
+                                <td><label for="waist">Waist:</label><br /><input name="waist" value="" type="text" size="3" id="waist" /></td>
+                                <td><label for="hip">Hip:</label><br /><input name="hip" value="" type="text" size="3" id="hip" /></td>
+                            </tr>
+                        </table>
+                    </form>
+                    <p><a href="#" id="convertsizeunits">Convert to Centimeters</a></p>
+                </div>
+                <div class="results">
+                    <p>Based on your measurements we recommend ordering size <strong id="size-value"></strong></p>
+                </div>
+            </div>
+            <div class="chart">
+                <table>
+                    <thead id="chart_head" style="background-color: <?php echo $config['sizechart_table_heading_color'] ?>">
+                        <?php echo $this->getThead(); ?>
+                    </thead>
+                    <tbody id="chart_values">
+                        <?php echo $this->getTbody(); ?>
+                    </tbody>
+                </table>
+            </div>
+            <div class="country">
+                <table>
+                    <thead style="background-color: <?php echo $config['sizechart_table_heading_color'] ?>">
+                        <tr><th colspan="15">Country</th>
+                    </thead>
+                    <tbody>
+                        <tr><td>US</td><td>0</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td><td>24</td><td>26</td></tr>
+                        <tr><td>UK</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td></tr>
+                        <tr><td>AU</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td></tr>
+                        <tr><td>EU</td><td>30</td><td>32</td><td>34</td><td>36</td><td>38</td><td>40</td><td>42</td><td>44</td><td>46</td><td>48</td><td>50</td><td>52</td><td>54</td><td>56</td></tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <div class="notes">
+                <p>*The following size recommendation is based on the current measurements. The final responsibility on choosing a size is the customers.</p>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="<?php echo $this->getSkinUrl('sizechart/images/sizechart-siluete.jpg'); ?>" />
+        </div>
+        <div class="sizechart-credits">
+            Provided by <a href="http://www.extensionmall.com/" title="ExtensionsMall" target="_blank">ExtensionsMall</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    document.observe("dom:loaded", function () {
+        jQuery("#sizechartbutton").fancybox();
+        // jQuery("a#sizechartbox").colorbox({inline:true, href:"#sizechart"});
+        var sizeChartObject = new sizeChart('sizechart_form');
+        $('convertsizeunits').on('click', function (event) {
+            sizeChartObject.changeUnits();
+            Event.stop(event);
+        });
+        new Form.Observer('sizechart_form', 0.5, function () {
+            sizeChartObject.findSize();
+        });
+    });
+</script>

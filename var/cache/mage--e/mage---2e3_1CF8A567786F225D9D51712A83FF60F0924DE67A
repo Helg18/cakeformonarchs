@@ -1,0 +1,14 @@
+<div class="container fondo-polo">
+<div class="row">
+<div class="col-md-4">
+<div id="crossfades" class="polo-section polo-izquierdo"><img class="cone" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-1-back.png" /> <img class="ctwo" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-2-back.png" /> <img class="cthree" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-3-back.png" /> <img class="cfour" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-4-back.png" /> <img class="cfive" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-5-back.png" /> <img class="csix" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-6-back.png" /></div>
+</div>
+<div class="col-md-4 polo-text PreciousSansLightItalic ">
+<h4 id="titulos">Classic, Meet, Contemporary</h4>
+<h2><span class="PreciousSansMedium" style="color: #1e2c47;">THE PERFECT POLO</span></h2>
+<br /> <a href="http://kreativeco.com/cfm/index.php/admin/cms_wysiwyg/directive/___directive/e3tjb25maWcgcGF0aD0id2ViL3Vuc2VjdXJlL2Jhc2VfdXJsIn19/key/3eaa57da9f1ac0b4dd406d897800ad94/shop/polos.html">EXPLORE</a></div>
+<div class="col-md-4">
+<div id="crossfade" class="polo-section"><img class="cone" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-1-front.png" /> <img class="ctwo" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-2-front.png" /> <img class="cthree" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-3-front.png" /> <img class="cfour" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-4-front.png" /> <img class="cfive" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-5-front.png" /> <img class="csix" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-6-front.png" /></div>
+</div>
+</div>
+</div>

@@ -80,6 +80,7 @@
 }
 label{
 	margin:10px 0px!important;
+	color: #1e2c47 !important;
 }
 h1, .h1, h2, .h2, h3, .h3{
 	margin-top:0px!important;
@@ -1290,8 +1291,19 @@ input #newsletter{
 	}
 	.polo-section img{
 		width: 50%;
+		margin-top: 10% !important;
+		margin-bottom: 10% !important;
+		margin-left: 12% !important;
 	}
+
+
 }
+
+
+
+
+
+
 @media(max-width: 992px){
 	.footer-container{
 		text-align: center;

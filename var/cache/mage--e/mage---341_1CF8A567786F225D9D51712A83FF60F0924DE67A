@@ -1,6 +1,6 @@
 <div class="container fondo-polo">
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-4 hidden-xs hidden-sm">
 <div id="crossfades" class="polo-section polo-izquierdo"><img class="cone" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-1-back.png" /> <img class="ctwo" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-2-back.png" /> <img class="cthree" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-3-back.png" /> <img class="cfour" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-4-back.png" /> <img class="cfive" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-5-back.png" /> <img class="csix" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/section1/polo-6-back.png" /></div>
 </div>
 <div class="col-md-4 polo-text PreciousSansLightItalic ">

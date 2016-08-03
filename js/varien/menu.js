@@ -136,15 +136,31 @@ jQuery(window).load(function() {
     newpar = document.createElement('div');
 	newpar.innerHTML = '<img src="http://kreativeco.com/cfm/media/menu.png" class="menu-burguer" onclick="burguer();">';
 	body.insertBefore(newpar,body.childNodes[0]);
-	// Escondemos buscador
+	
 	var ancho = parseInt(jQuery(window).width());
-	if(ancho < 768){
-		jQuery('form#search_mini_form').attr('style','display:none');
-		jQuery('div.form-search').attr('style','');
-	}else{
-		jQuery('form#search_mini_form').attr('style','');
-		jQuery('div.form-search').attr('style','top:-10px;right:74%');
-	}
+	
+	// Checamos si el archivo es diferente al index, para aplicar el estilo al campo de search
+		var pagePathName = window.location.pathname;
+		var archivo = pagePathName.substring(pagePathName.lastIndexOf("/") + 1);
+		if(archivo != "index.php" && archivo != ""){
+			// Escondemos buscador
+			if(ancho < 768){
+				jQuery('form#search_mini_form').attr('style','display:none');
+				jQuery('div.form-search').attr('style','');
+			}else{
+				jQuery('form#search_mini_form').attr('style','');
+				jQuery('div.form-search').attr('style','top: -160px;right: 0%;position: relative;z-index: 2;');
+			}
+		}else{
+			// Escondemos buscador
+			if(ancho < 768){
+				jQuery('form#search_mini_form').attr('style','display:none');
+				jQuery('div.form-search').attr('style','');
+			}else{
+				jQuery('form#search_mini_form').attr('style','');
+				jQuery('div.form-search').attr('style','top:-10px;right:74%');
+			}
+		}
 });
 function burguer(){
 	jQuery("div#bs-example-navbar-collapse-1").toggle();
@@ -157,11 +173,25 @@ function burguer(){
 // Esconder buscador si es pantalla media o chica
 jQuery(window).resize(function() {
 	var ancho = parseInt(jQuery(window).width());
-	if(ancho < 768){
-		jQuery('form#search_mini_form').attr('style','display:none');
-		jQuery('div.form-search').attr('style','');
-	}else{
-		jQuery('form#search_mini_form').attr('style','');
-		jQuery('div.form-search').attr('style','top:-10px;right:74%');
-	}
+	var pagePathName = window.location.pathname;
+	var archivo = pagePathName.substring(pagePathName.lastIndexOf("/") + 1);
+		if(archivo != "index.php" && archivo != ""){
+			// Escondemos buscador
+			if(ancho < 768){
+				jQuery('form#search_mini_form').attr('style','display:none');
+				jQuery('div.form-search').attr('style','');
+			}else{
+				jQuery('form#search_mini_form').attr('style','');
+				jQuery('div.form-search').attr('style','top: -160px;right: 0%;position: relative;z-index: 2;');
+			}
+		}else{
+			// Escondemos buscador
+			if(ancho < 768){
+				jQuery('form#search_mini_form').attr('style','display:none');
+				jQuery('div.form-search').attr('style','');
+			}else{
+				jQuery('form#search_mini_form').attr('style','');
+				jQuery('div.form-search').attr('style','top:-10px;right:74%');
+			}
+		}
 });

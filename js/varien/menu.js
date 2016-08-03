@@ -145,3 +145,10 @@ function burguer(){
 		jQuery('ul.navbar-nav').attr('style','');
 	}
 }
+// Esconder buscador si es pantalla media o chica
+jQuery(window).resize(function() {
+	var ancho = $(window).width();
+	if(ancho < 768){
+		jQuery('form#search_mini_form').attr('style','none');
+	}
+});

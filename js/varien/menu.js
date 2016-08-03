@@ -149,7 +149,7 @@ function burguer(){
 	if(jQuery("div#bs-example-navbar-collapse-1").is(":visible")){
 		jQuery('ul.navbar-nav').attr('style','position: fixed;background: rgba(202,200,179,0.8);box-shadow: 0px 2px 5px 2px #b9b9b9;');
 	}else{
-		jQuery('ul.navbar-nav').attr('style','');
+		jQuery('ul.navbar-nav').attr('style','style','top:-10px;right:74%');
 	}
 }
 // Esconder buscador si es pantalla media o chica
@@ -158,6 +158,6 @@ jQuery(window).resize(function() {
 	if(ancho < 768){
 		jQuery('form#search_mini_form').attr('style','display:none');
 	}else{
-		jQuery('form#search_mini_form').attr('style','');
+		jQuery('form#search_mini_form').attr('style','top:-10px;right:74%');
 	}
 });

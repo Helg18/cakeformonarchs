@@ -775,7 +775,7 @@ select {
 
 .parent:hover > ul > li {
 	top: 0 !important;
-	margin-top: -2.5% !important;
+	margin-top: -1.5% !important;
 }
 
 

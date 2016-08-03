@@ -224,6 +224,9 @@
 <reference name="notifications">
    <block type="tax/adminhtml_notifications" name="tax_notifications" template="tax/notifications.phtml"/>
 </reference>
+<reference name="notifications">
+   <block type="avatax/adminhtml_notification_toolbar" name="avatax.notifications" template="onepica/avatax/notification/toolbar.phtml"/>
+</reference>
 <block type="core/text_list" name="root" output="toHtml">
    <block type="adminhtml/template" name="content" template="login.phtml">
       <block type="core/text_list" name="form.additional.info"/>

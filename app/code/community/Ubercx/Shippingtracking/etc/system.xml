@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the GNU General Public License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/gpl-license
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@refersion.com so we can send you a copy immediately.
+ *
+ * @category   UBERCX
+ * @package    Ubercx_Shippingtracking
+ * @copyright  Copyright (c) 2015 Ubercx, Inc.
+ * @author	   Ubercx Developer <ubercx_nospam@jframeworks.com>
+ * @license    http://opensource.org/licenses/gpl-license GNU General Public License
+ */
+-->
+<config>
+  <tabs>
+    <ubercx translate="label" module="shippingtracking">
+      <label>snapCX Plugins</label>
+      <sort_order>301</sort_order>
+    </ubercx>
+  </tabs>
+  <sections>
+    <shippingtracking translate="label" module="shippingtracking">
+      <label>Shipping Tracking Settings</label>
+      <tab>ubercx_shippingtracking</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>1</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+      <tab>ubercx</tab>
+      <groups>
+        <shippingtracking_settings translate="label">
+          <label>snapCX Shipping Tracking Settings</label>
+          <frontend_type>text</frontend_type>
+          <sort_order>1</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <comment><![CDATA[This plugin allows real time shipment tracking for UPS, USPS, FEDEX, DHL carriers. It connects with snapCX API, which responds in JSON payload. Please visit this <a target="_blank" href="https://snapcx.io/track/plugins/magento">link</a> to detail documentation about Magento plugin and recipes.<br>This plugin comes with default page which shows shipping tracking details on customer order detail page.]]></comment>          
+          <fields>
+	      <shippingtracking_user_key translate="label">
+              <label>User Key</label>
+              <frontend_type>text</frontend_type>
+              <sort_order>1</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>0</show_in_website>
+              <show_in_store>0</show_in_store>
+              <comment><![CDATA[<a href="https://snapcx.io/signup" target="_blank">Get your User Key</a>]]></comment>
+            </shippingtracking_user_key>
+            <shippingtracking_active translate="label">
+              <label>Enabled</label>
+              <frontend_type>select</frontend_type>
+              <source_model>adminhtml/system_config_source_yesno</source_model>
+              <sort_order>3</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>0</show_in_website>
+              <show_in_store>0</show_in_store>
+            </shippingtracking_active>
+          </fields>
+        </shippingtracking_settings>
+      </groups>
+    </shippingtracking>
+  </sections>
+</config>

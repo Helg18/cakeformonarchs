@@ -32,7 +32,11 @@
 </li>
 <li  class="  level2"> <a href="http://kreativeco.com/cfm/index.php/admin/tax_class_customer/index/key/$tax_class_customer/index$/"   class=""><span>Customer Tax Classes</span></a>
 </li>
-<li  class="  last level2"> <a href="http://kreativeco.com/cfm/index.php/admin/tax_class_product/index/key/$tax_class_product/index$/"   class=""><span>Product Tax Classes</span></a>
+<li  class="  level2"> <a href="http://kreativeco.com/cfm/index.php/admin/tax_class_product/index/key/$tax_class_product/index$/"   class=""><span>Product Tax Classes</span></a>
+</li>
+<li  class="  level2"> <a href="http://kreativeco.com/cfm/index.php/admin/avaTax_grid/queue/key/$avaTax_grid/queue$/"   class=""><span>AvaTax Order Sync Queue</span></a>
+</li>
+<li  class="  last level2"> <a href="http://kreativeco.com/cfm/index.php/admin/avaTax_grid/log/key/$avaTax_grid/log$/"   class=""><span>AvaTax Log</span></a>
 </li>
 </ul>
 </li>

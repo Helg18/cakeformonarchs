@@ -1,3 +1,4 @@
 <remove name="right"/>
 <remove name="left"/>
 <block type="checkout/onepage_shipping_method_available" name="root" output="toHtml" template="checkout/onepage/shipping_method/available.phtml"/>
+<block type="avatax/checkout_onepage_shipping_method_available" name="checkout.onepage.shipping_method.availableAvatax" before="-" output="toHtml"/>

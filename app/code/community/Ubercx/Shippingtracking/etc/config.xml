@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!--
+/*
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the GNU General Public License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/gpl-license
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@refersion.com so we can send you a copy immediately.
+ *
+ * @category   UBERCX
+ * @package    Ubercx_Shippingtracking
+ * @copyright  Copyright (c) 2015 Ubercx, Inc.
+ * @author	   Ubercx Developer <ubercx_nospam@jframeworks.com>
+ * @license    http://opensource.org/licenses/gpl-license GNU General Public License
+ */
+-->
+<config>
+  <modules>
+    <Ubercx_Shippingtracking>
+      <version>1.0.7</version>
+    </Ubercx_Shippingtracking>
+  </modules>
+  <global>
+    <helpers>
+      <shippingtracking>
+        <class>Ubercx_Shippingtracking_Helper</class>
+      </shippingtracking>
+    </helpers>
+		<models>
+			<shippingtracking>
+					<class>Ubercx_Shippingtracking_Model</class>
+			</shippingtracking>
+		</models>
+		<blocks>
+			<shippingtracking>
+				<class>Ubercx_Shippingtracking_Block</class>
+			</shippingtracking>
+			<sales>
+				<rewrite>
+					<order_view>Ubercx_Shippingtracking_Block_Order_View</order_view>
+				  <order_shipment_items>Ubercx_Shippingtracking_Block_Order_Shipment_Items</order_shipment_items>
+				</rewrite>
+			</sales>
+			<adminhtml>
+				<rewrite>
+					<sales_order_shipment_view_tracking>Ubercx_Shippingtracking_Block_Adminhtml_Sales_Order_Shipment_View_Tracking</sales_order_shipment_view_tracking>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+  </global>
+	<frontend>
+		<routers>
+			<shippingtracking>
+				<use>standard</use>
+				<args>
+					<module>Ubercx_Shippingtracking</module>
+					<frontName>shippingtracking</frontName>
+				</args>
+			</shippingtracking>
+		</routers>
+		<layout>
+			<updates>
+				<shippingtracking>
+					<file>shippingtracking.xml</file>
+				</shippingtracking>
+			</updates>
+		</layout>
+	</frontend>
+	<default>
+		<shippingtracking>
+			<ubercx_api_url><![CDATA[https://api.snapcx.io/tracking/v1/getTrackingDetails?carrier=CARRIER_CODE&trackId=TRACK_ID]]></ubercx_api_url>
+		</shippingtracking>
+	</default>
+	<adminhtml>
+    	<layout>
+        	<updates>
+            	<shippingtracking>
+					<file>shippingtracking.xml</file>
+				</shippingtracking>
+        	</updates>
+    	</layout>
+ 	</adminhtml>
+</config> 

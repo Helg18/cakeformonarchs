@@ -489,6 +489,9 @@
       <name>varien/weee.js</name>
    </action>
 </reference>
+<reference name="checkout.onepage.shipping_method">
+   <block type="avatax/checkout_onepage_shipping_method_available" name="checkout.onepage.shipping_method.availableAvatax" before="-" output="toHtml"/>
+</reference>
 <reference name="top.links">
    <action method="addLink" translate="label title" module="customer">
       <label>Log Out</label>

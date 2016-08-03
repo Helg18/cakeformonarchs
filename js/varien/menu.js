@@ -152,13 +152,20 @@ jQuery(window).load(function() {
 				jQuery('div.form-search').attr('style','top: -160px;right: 0%;position: relative;z-index: 2;');
 			}
 		}else{
+			// Por default
+			jQuery('div.presales-section-izq').addClass('hidden-xs');
+			jQuery('div.presales-section-izq').addClass('hidden-sm');
 			// Escondemos buscador
 			if(ancho < 768){
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
+				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','margin-bottom: 50px;');
+				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top:-10px;right:74%');
+				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
+				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}
 		}
 });
@@ -185,13 +192,20 @@ jQuery(window).resize(function() {
 				jQuery('div.form-search').attr('style','top: -160px;right: 0%;position: relative;z-index: 2;');
 			}
 		}else{
+			// Por default
+			jQuery('div.presales-section-izq').addClass('hidden-xs');
+			jQuery('div.presales-section-izq').addClass('hidden-sm');
 			// Escondemos buscador
 			if(ancho < 768){
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
+				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','margin-bottom: 50px;');
+				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top:-10px;right:74%');
+				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
+				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}
 		}
 });

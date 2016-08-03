@@ -136,6 +136,13 @@ jQuery(window).load(function() {
     newpar = document.createElement('div');
 	newpar.innerHTML = '<img src="http://kreativeco.com/cfm/media/menu.png" class="menu-burguer" onclick="burguer();">';
 	body.insertBefore(newpar,body.childNodes[0]);
+	// Escondemos buscador
+	var ancho = parseInt(jQuery(window).width());
+	if(ancho < 768){
+		jQuery('form#search_mini_form').attr('style','display:none');
+	}else{
+		jQuery('form#search_mini_form').attr('style','');
+	}
 });
 function burguer(){
 	jQuery("div#bs-example-navbar-collapse-1").toggle();
@@ -147,8 +154,10 @@ function burguer(){
 }
 // Esconder buscador si es pantalla media o chica
 jQuery(window).resize(function() {
-	var ancho = jQuery(window).width();
+	var ancho = parseInt(jQuery(window).width());
 	if(ancho < 768){
-		jQuery('form#search_mini_form').attr('style','none');
+		jQuery('form#search_mini_form').attr('style','display:none');
+	}else{
+		jQuery('form#search_mini_form').attr('style','');
 	}
 });

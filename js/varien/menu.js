@@ -134,7 +134,7 @@ document.observe("dom:loaded", function() {
 jQuery(window).load(function() {
     var body   = document.body || document.getElementsByTagName('body')[0],
     newpar = document.createElement('div');
-	newpar.innerHTML = '<img src="media/menu.png" class="menu-burguer" onclick="burguer();">';
+	newpar.innerHTML = '<img src="http://kreativeco.com/cfm/media/menu.png" class="menu-burguer" onclick="burguer();">';
 	body.insertBefore(newpar,body.childNodes[0]);
 });
 function burguer(){

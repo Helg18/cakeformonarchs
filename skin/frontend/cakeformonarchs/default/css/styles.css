@@ -306,13 +306,7 @@ nav > .container-fluid{
 }
 
 
-.header .form-search { 
-	position:absolute; 
-	top:4.3%; 
-	right:-3%;
-	float:right;
-	z-index: 9999999 !important;
-}
+
 
 .form-search label{
 	visibility: hidden;
@@ -543,7 +537,7 @@ select {
 
 /*	Section 2	*/
 .section2{
-	background: url(../images/followup-background.jpg) no-repeat center center; 
+	background: url(followup-background.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1316,11 +1310,20 @@ input #newsletter{
 	}
 }
 
-
-
-
-
-
+@media (max-width: 768px){
+	.menu-burguer{display:inherit;position:fixed;right:10px;top:10px;width:30px;cursor:pointer;z-index:999999999}
+	.header .form-search {/*position:relative;text-align:center;width:100%;z-index: 9999999 !important;*/display:none !important;}
+}
+@media (min-width: 768px){
+	.menu-burguer{display:none;}
+	.header .form-search {
+		position:absolute; 
+		top:4.3%; 
+		right:-3%;
+		float:right;
+		z-index: 9999999 !important;
+	}
+}
 
 
 

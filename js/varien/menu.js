@@ -130,3 +130,18 @@ document.observe("dom:loaded", function() {
     //run navigation with delays
     mainNav("nav", {"show_delay":"100","hide_delay":"100"});
 });
+// Ponemos el menú
+jQuery(window).load(function() {
+    var body   = document.body || document.getElementsByTagName('body')[0],
+    newpar = document.createElement('div');
+	newpar.innerHTML = '<img src="media/menu.png" class="menu-burguer" onclick="burguer();">';
+	body.insertBefore(newpar,body.childNodes[0]);
+});
+function burguer(){
+	jQuery("div#bs-example-navbar-collapse-1").toggle();
+	if(jQuery("div#bs-example-navbar-collapse-1").is(":visible")){
+		jQuery('ul.navbar-nav').attr('style','position: fixed;background: rgba(202,200,179,0.8);box-shadow: 0px 2px 5px 2px #b9b9b9;');
+	}else{
+		jQuery('ul.navbar-nav').attr('style','');
+	}
+}

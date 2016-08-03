@@ -159,9 +159,9 @@ jQuery(window).resize(function() {
 	var ancho = parseInt(jQuery(window).width());
 	if(ancho < 768){
 		jQuery('form#search_mini_form').attr('style','display:none');
-		jQuery('div.form_search').attr('style','');
+		jQuery('div.form-search').attr('style','');
 	}else{
 		jQuery('form#search_mini_form').attr('style','');
-		jQuery('div.form_search').attr('style','top:-10px;right:74%');
+		jQuery('div.form-search').attr('style','top:-10px;right:74%');
 	}
 });

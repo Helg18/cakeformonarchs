@@ -148,6 +148,7 @@ jQuery(window).load(function() {
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
 				jQuery('ul.nav.navbar-nav').attr('style','');
+				jQuery('.logo-top > img').attr('style','position:absolute;top:0;left:36%;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top: -100px;left: 79%;position: relative;z-index: 2;');
@@ -262,6 +263,7 @@ jQuery(window).resize(function() {
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
 				jQuery('ul.nav.navbar-nav').attr('style','');
+				jQuery('.logo-top > img').attr('style','position:absolute;top:0;left:36%;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top: -100px;left: 79%;position: relative;z-index: 2;');

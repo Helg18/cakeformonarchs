@@ -1330,19 +1330,7 @@ input #newsletter{
 	#myCarousel2,#myCarousel1{display:none  !important;}
 	#crossfade.presales-section-der > img { 
 		width: 86%;
-		min-height: 80%;
-		position: absolute;
-		top: 0px;
 		left: 30px;
-		color: transparent;
-		opacity: 0;
-		z-index: 0;
-		-webkit-backface-visibility: hidden;
-		-webkit-animation: imageAnimation 20s linear infinite 0s;
-		-moz-animation: imageAnimation 20s linear infinite 0s;
-		-o-animation: imageAnimation 20s linear infinite 0s;
-		-ms-animation: imageAnimation 20s linear infinite 0s;
-		animation: imageAnimation 20s linear infinite 0s;
 	}
 }
 @media (min-width: 768px){

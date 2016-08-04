@@ -153,20 +153,92 @@ jQuery(window).load(function() {
 			}
 		}else{
 			// Por default
-			jQuery('div.presales-section-izq').addClass('hidden-xs');
-			jQuery('div.presales-section-izq').addClass('hidden-sm');
-			// Escondemos buscador
-			if(ancho < 768){
-				jQuery('form#search_mini_form').attr('style','display:none');
-				jQuery('div.form-search').attr('style','');
-				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','margin-bottom: 50px;');
-				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
-			}else{
-				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-10px;right:74%');
-				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
-				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
-			}
+				jQuery('div.presales-section-izq').addClass('hidden-xs');
+				jQuery('div.presales-section-izq').addClass('hidden-sm');
+				// Escondemos buscador
+				if(ancho < 768){
+					jQuery('form#search_mini_form').attr('style','display:none');
+					jQuery('div.form-search').attr('style','');
+					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','margin-bottom: 50px;');
+					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
+				}else{
+					jQuery('form#search_mini_form').attr('style','');
+					jQuery('div.form-search').attr('style','top:-10px;right:74%');
+					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
+					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
+				}
+				
+				jQuery('div.row.PreciousSansMedium.fondo-blanco').html('');
+				html = '<div class="col-md-3"> <div id="myCarousel1" data-ride="carousel" class="carousel slide"> <div class="carousel-inner">';
+				
+				jQuery.ajax({
+					url: "leer_imagenes.php",
+					type: 'POST',
+					data: {numero: 1},
+					dataType: "json",
+					success: function (data){
+						jQuery.each(data, function(i,filename) {
+							if(i == 1){
+								html = html + '<div class="col-md-3 heredar-tamano item active"><span> <img alt="" src="carrusel/1/'+filename+'"> </span></div>';
+							}else{
+								html = html + '<div class="col-md-3 heredar-tamano item"><span> <img alt="" src="carrusel/1/'+filename+'"> </span></div>';
+							}
+							
+						});
+						html = html + '<a class="left carousel-control" href="#myCarousel1" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel1" data-slide="next">></a></div></div></div>';console.log(html);
+						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html);
+					}
+				});
+			html2 = '<div class="col-md-3"> <div id="myCarousel2" data-ride="carousel" class="carousel slide"> <div class="carousel-inner">';
+				
+				jQuery.ajax({
+					url: "leer_imagenes.php",
+					type: 'POST',
+					data: {numero: 2},
+					dataType: "json",
+					success: function (data){
+						jQuery.each(data, function(i,filename) {
+							if(i == 1){
+								html2 = html2 + '<div class="col-md-3 heredar-tamano item active"><span> <img alt="" src="carrusel/2/'+filename+'"> </span></div>';
+							}else{
+								html2 = html2 + '<div class="col-md-3 heredar-tamano item"><span> <img alt="" src="carrusel/2/'+filename+'"> </span></div>';
+							}
+							
+						});
+						html2 = html2 + '<a class="left carousel-control" href="#myCarousel2" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel2" data-slide="next">></a></div></div></div>';console.log(html2);
+						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html2);
+					}
+				});
+			texto = '<div class="col-md-3 polo-text PreciousSansMedium text-center about-text"><span> <img style="width: 50px;" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/about-us/blue.png"> </span> <h2><span class="PreciousSansMedium" style="color: #1e2c47;">ALL ABOUT US</span></h2> <br><span> <a class="PreciousSansMedium" href="http://kreativeco.com/cfm/our-story.html"> <span> HELLO</span> </a> </span></div>';
+			html3 = texto + '<div class="col-md-3"> <div id="myCarousel3" data-ride="carousel" class="carousel slide"> <div class="carousel-inner">';
+				
+				jQuery.ajax({
+					url: "leer_imagenes.php",
+					type: 'POST',
+					data: {numero: 3},
+					dataType: "json",
+					success: function (data){
+						jQuery.each(data, function(i,filename) {
+							if(i == 1){
+								html3 = html3 + '<div class="col-md-3 heredar-tamano item active"><span> <img alt="" src="carrusel/3/'+filename+'"> </span></div>';
+							}else{
+								html3 = html3 + '<div class="col-md-3 heredar-tamano item"><span> <img alt="" src="carrusel/3/'+filename+'"> </span></div>';
+							}
+							
+						});
+						html3 = html3 + '<a class="left carousel-control" href="#myCarousel3" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel3" data-slide="next">></a></div></div></div>';console.log(html3);
+						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html3);
+					}
+				});	
+				$('#Carousel1').carousel({
+					interval: 2000
+				});
+				$('#Carousel2').carousel({
+					interval: 2000
+				});
+				$('#Carousel3').carousel({
+					interval: 2000
+				});
 		}
 });
 function burguer(){

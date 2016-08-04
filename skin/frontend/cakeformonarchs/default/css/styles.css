@@ -1309,10 +1309,12 @@ input #newsletter{
 		padding:12px;
 	}
 }
-
+.carousel-inner .heredar-tamano.item{width:100%;padding-top:0;margin-top:0;}
+.carousel-control{height:8%;padding-top:3%;}
 @media (max-width: 768px){
 	.menu-burguer{display:inherit;position:fixed;right:10px;top:10px;width:30px;cursor:pointer;z-index:999999999}
 	.header .form-search {/*position:relative;text-align:center;width:100%;z-index: 9999999 !important;*/display:none !important;}
+	#myCarousel2,#myCarousel3{display:none  !important;}
 }
 @media (min-width: 768px){
 	.menu-burguer{display:none;}
@@ -1324,7 +1326,3 @@ input #newsletter{
 		z-index: 9999999 !important;
 	}
 }
-
-
-
-

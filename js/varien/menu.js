@@ -230,13 +230,13 @@ jQuery(window).load(function() {
 						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html3);
 					}
 				});	
-				$('#Carousel1').carousel({
+				jQuery('#Carousel1').carousel({
 					interval: 2000
 				});
-				$('#Carousel2').carousel({
+				jQuery('#Carousel2').carousel({
 					interval: 2000
 				});
-				$('#Carousel3').carousel({
+				jQuery('#Carousel3').carousel({
 					interval: 2000
 				});
 		}

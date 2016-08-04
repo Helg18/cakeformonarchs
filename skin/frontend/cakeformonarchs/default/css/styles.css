@@ -1343,6 +1343,13 @@ input #newsletter{
 		float:right;
 		z-index: 9999999 !important;
 	}
+	.navbar-nav{float: left !important;}
+	.navbar-nav > li{float: left !important;}
+	.barra-top2 li{padding-left:20 !important;margin-left:0 !important;}
+	.navbar-nav > li{width:15%;}
+	.nav > li, .navbar-default .navbar-nav > li > a{padding:7px;}
+	.nav > li > a > img{max-width:none !important}
+	.parent:hover > ul{height:70%;padding-top:29px !important;}
 }
 
 .category-products h2.product-name{font-size:20px}

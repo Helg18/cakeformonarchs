@@ -148,11 +148,12 @@ jQuery(window).load(function() {
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
 				jQuery('ul.nav.navbar-nav').attr('style','');
-				jQuery('.logo-top > img').attr('style','position:absolute;top:0;left:36%;');
+				jQuery('a.logo > img').attr('style','position:absolute;top:0;left:36%;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top: -100px;left: 79%;position: relative;z-index: 2;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
+				jQuery('a.logo > img').attr('style','');
 			}
 		}else{
 			// Por default
@@ -268,6 +269,7 @@ jQuery(window).resize(function() {
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top: -100px;left: 79%;position: relative;z-index: 2;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
+				jQuery('a.logo > img').attr('style','');
 			}
 		}else{
 			// Por default

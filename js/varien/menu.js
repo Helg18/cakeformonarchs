@@ -149,9 +149,16 @@ jQuery(window).load(function() {
 				jQuery('div.form-search').attr('style','');
 				jQuery('ul.nav.navbar-nav').attr('style','');
 				jQuery('a.logo > img').attr('style','position:absolute;top:0;left:36%;');
-			}else{
+			}
+			if(ancho > 768 && ancho < 1235){
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;');
+				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
+				jQuery('a.logo > img').attr('style','');
+			}
+			if(ancho > 768 && ancho > 1235){
+				jQuery('form#search_mini_form').attr('style','');
+				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -265,9 +272,16 @@ jQuery(window).resize(function() {
 				jQuery('div.form-search').attr('style','');
 				jQuery('ul.nav.navbar-nav').attr('style','');
 				jQuery('a.logo > img').attr('style','position:absolute;top:0;left:36%;');
-			}else{
+			}
+			if(ancho > 768 && ancho < 1235){
 				jQuery('form#search_mini_form').attr('style','');
 				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;');
+				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
+				jQuery('a.logo > img').attr('style','');
+			}
+			if(ancho > 768 && ancho > 1235){
+				jQuery('form#search_mini_form').attr('style','');
+				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}

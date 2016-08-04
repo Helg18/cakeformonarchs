@@ -1351,6 +1351,7 @@ input #newsletter{
 	.nav > li > a > img{max-width:none !important}
 	.parent:hover > ul{height:70%;padding-top:39px !important;}
 	.parent ul li{width:7% !important;left:34%;position:relative;}
+	li.level0.nav-1.first.level-top.parent{height:50px;}
 }
 
 .category-products h2.product-name{font-size:20px}

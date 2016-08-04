@@ -775,7 +775,7 @@ select {
 
 .parent:hover > ul > li {
 	top: 0 !important;
-	margin-top: -2.5% !important;
+	margin-top: -1.5% !important;
 }
 
 
@@ -858,11 +858,11 @@ background: green;
 }
 
 #crossfade > img { 
-	width: 80%;
+	width: 86%;
 	min-height: 80%;
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 30px;
 	color: transparent;
 	opacity: 0;
 	z-index: 0;

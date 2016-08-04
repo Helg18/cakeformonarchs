@@ -1245,6 +1245,7 @@ input #newsletter{
 	.logo  img{
 		max-width: 50%;
 		padding-bottom: 80px;
+		margin-top:-30px;
 	}
 	.navbar-default{
 		background-color: transparent!important;

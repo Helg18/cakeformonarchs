@@ -151,7 +151,7 @@ jQuery(window).load(function() {
 				jQuery('a.logo > img').attr('style','position:absolute;top:0;left:36%;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: -100px;left: 81%;position: relative;z-index: 2;');
+				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -167,7 +167,7 @@ jQuery(window).load(function() {
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 				}else{
 					jQuery('form#search_mini_form').attr('style','');
-					jQuery('div.form-search').attr('style','top:44px;left:79%');
+					jQuery('div.form-search').attr('style','top:-12px;left:0%');
 					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 				}
@@ -267,7 +267,7 @@ jQuery(window).resize(function() {
 				jQuery('a.logo > img').attr('style','position:absolute;top:0;left:36%;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: -100px;left: 81%;position: relative;z-index: 2;');
+				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -283,7 +283,7 @@ jQuery(window).resize(function() {
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:44px;left:79%');
+				jQuery('div.form-search').attr('style','top:-12px;left:0%');
 				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}

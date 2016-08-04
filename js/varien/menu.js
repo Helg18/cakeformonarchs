@@ -147,9 +147,11 @@ jQuery(window).load(function() {
 			if(ancho < 768){
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
+				jQuery('ul.nav.navbar-nav').attr('style','');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: -160px;right: 0%;position: relative;z-index: 2;');
+				jQuery('div.form-search').attr('style','top: -100px;left: 81%;position: relative;z-index: 2;');
+				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 			}
 		}else{
 			// Por default
@@ -163,7 +165,7 @@ jQuery(window).load(function() {
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 				}else{
 					jQuery('form#search_mini_form').attr('style','');
-					jQuery('div.form-search').attr('style','top:-10px;right:74%');
+					jQuery('div.form-search').attr('style','top:44px;right:-1%');
 					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 				}
@@ -259,9 +261,11 @@ jQuery(window).resize(function() {
 			if(ancho < 768){
 				jQuery('form#search_mini_form').attr('style','display:none');
 				jQuery('div.form-search').attr('style','');
+				jQuery('ul.nav.navbar-nav').attr('style','');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: -160px;right: 0%;position: relative;z-index: 2;');
+				jQuery('div.form-search').attr('style','top: -100px;left: 81%;position: relative;z-index: 2;');
+				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 			}
 		}else{
 			// Por default
@@ -275,7 +279,7 @@ jQuery(window).resize(function() {
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-10px;right:74%');
+				jQuery('div.form-search').attr('style','top:44px;right:-1%');
 				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}

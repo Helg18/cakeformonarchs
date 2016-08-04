@@ -152,13 +152,13 @@ jQuery(window).load(function() {
 			}
 			if(ancho > 768 && ancho < 1235){
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;width:266px');
+				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;width:266px;height:63px');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
 			if(ancho > 768 && ancho > 1235){
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;width:266px');
+				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;width:266px;height:63px');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -174,7 +174,7 @@ jQuery(window).load(function() {
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 				}else{
 					jQuery('form#search_mini_form').attr('style','');
-					jQuery('div.form-search').attr('style','top:-12px;left:0%');
+					jQuery('div.form-search').attr('style','top:-12px;left:0%;width:266px;height:63px');
 					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 				}
@@ -275,13 +275,13 @@ jQuery(window).resize(function() {
 			}
 			if(ancho > 768 && ancho < 1235){
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;width:266px');
+				jQuery('div.form-search').attr('style','top: -177px;left: 0%;position: relative;z-index: 2;width:266px;height:63px');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
 			if(ancho > 768 && ancho > 1235){
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;width:266px');
+				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;width:266px;height:63px');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -297,7 +297,7 @@ jQuery(window).resize(function() {
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-12px;left:0%');
+				jQuery('div.form-search').attr('style','top:-12px;left:0%;width:266px;height:63px');
 				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}

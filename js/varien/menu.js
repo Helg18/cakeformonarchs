@@ -134,7 +134,7 @@ document.observe("dom:loaded", function() {
 jQuery(window).load(function() {
     var body   = document.body || document.getElementsByTagName('body')[0],
     newpar = document.createElement('div');
-	newpar.innerHTML = '<img src="http://kreativeco.com/cfm/media/menu.png" class="menu-burguer" onclick="burguer();">';
+	newpar.innerHTML = '<button type="button" class="menu-burguer navbar-toggle collapsed" onclick="burguer();"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <i class="glyphicon glyphicon-menu-hamburger"></i> </button>';
 	body.insertBefore(newpar,body.childNodes[0]);
 	
 	var ancho = parseInt(jQuery(window).width());

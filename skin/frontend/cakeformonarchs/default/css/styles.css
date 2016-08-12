@@ -110,6 +110,11 @@ ul{
     padding: 5px;
     margin: 10px 0px;
     color: #1e2c47;	
+	border:0;
+	background-image: url('lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+	background-size: 16px 16px;
 }
 .fieldset h1{
 	font-family: "PreciousSansBold";
@@ -171,7 +176,8 @@ ul{
 
 /*	Menu 	*/
 .parent > ul{
-	display: none;
+	width: 100% !important;
+
 }
 .parent:hover > ul{
 	font-family: "PreciousSerifBook";
@@ -676,7 +682,7 @@ select {
 
 
 #barra-separadora{
-	border-bottom: 0.2px solid beige;
+	border-bottom: 1.2px solid beige;
 	/*border-bottom: 0.2px solid rgba(202,200,179,0.7);*/
 	width: 105%;	
 	margin-left: -1.2%;
@@ -699,11 +705,9 @@ select {
 	font-family: PreciousSansMedium !important;
 }
 
-.parent ul {
-	background: rgba(202,200,179,0.4);
-}
 
-.barra-top2 ul{
+
+.barra-top2 ul.navbar-nav{
 	width: 100% !important;
 	list-style-type: none !important;
 	text-align: center !important;
@@ -1278,6 +1282,7 @@ input #newsletter{
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 		margin-left:-692% !important;
+		text-align:center;
 	}
 	.parent:hover > ul > li{
 		top: 0 !important;
@@ -1333,8 +1338,31 @@ input #newsletter{
 		width: 86%;
 		left: 30px;
 	}
+
 }
 @media (min-width: 768px){
+	.parent ul {
+		height: 50%;
+		top: 0 !important;
+		margin-top: 39% !important;
+		
+		
+
+		background: rgba(202,200,179,0.4);
+		font-family: "PreciousSerifBook";
+		display: flex;
+		transition: display 2s;
+		position: absolute;
+		text-align: left;
+		list-style: none;
+		list-style-type: none;
+		margin-left: -610% !important;
+		width: 1464.5% !important;
+		padding-left: 45% !important;
+		padding-right: 40% !important;
+		left: 0 !important;
+		right: 0 !important;
+	}
 	.menu-burguer{display:none;}
 	.header .form-search {
 		position:absolute; 
@@ -1355,5 +1383,5 @@ input #newsletter{
 }
 
 .category-products h2.product-name{font-size:20px}
-
+input #search{border:0 !important}
 

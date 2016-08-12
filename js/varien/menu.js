@@ -158,7 +158,7 @@ jQuery(window).load(function() {
 			}
 			if(ancho > 768 && ancho > 1235){
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;width:266px;height:63px');
+				jQuery('div.form-search').attr('style','top: -141px;left: 80%;position: relative;z-index: 2;width:266px;height:63px;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -174,13 +174,13 @@ jQuery(window).load(function() {
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 				}else{
 					jQuery('form#search_mini_form').attr('style','');
-					jQuery('div.form-search').attr('style','top:-12px;left:0%;width:266px;height:63px');
+					jQuery('div.form-search').attr('style','top: 26px;right: -2%;width:262px;height:63px;');
 					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 				}
 				
 				jQuery('div.row.PreciousSansMedium.fondo-blanco').html('');
-				html = '<div class="col-md-3"> <div id="myCarousel1" data-ride="carousel" class="carousel slide"> <div class="carousel-inner">';
+				html = '<div class="col-md-3"> <div id="myCarousel1" data-ride="carousel" class="carousel slide" data-interval="3000"> <div class="carousel-inner">';
 				
 				jQuery.ajax({
 					url: "leer_imagenes.php",
@@ -196,11 +196,11 @@ jQuery(window).load(function() {
 							}
 							
 						});
-						html = html + '<a class="left carousel-control" href="#myCarousel1" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel1" data-slide="next">></a></div></div></div>';console.log(html);
+						//html = html + '<a class="left carousel-control" href="#myCarousel1" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel1" data-slide="next">></a></div></div></div>';console.log(html);
 						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html);
 					}
 				});
-			html2 = '<div class="col-md-3"> <div id="myCarousel2" data-ride="carousel" class="carousel slide"> <div class="carousel-inner">';
+			html2 = '<div class="col-md-3"> <div id="myCarousel2" data-ride="carousel" class="carousel slide" data-interval="3000"> <div class="carousel-inner">';
 				
 				jQuery.ajax({
 					url: "leer_imagenes.php",
@@ -216,12 +216,12 @@ jQuery(window).load(function() {
 							}
 							
 						});
-						html2 = html2 + '<a class="left carousel-control" href="#myCarousel2" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel2" data-slide="next">></a></div></div></div>';console.log(html2);
+					//	html2 = html2 + '<a class="left carousel-control" href="#myCarousel2" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel2" data-slide="next">></a></div></div></div>';console.log(html2);
 						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html2);
 					}
 				});
 			texto = '<div class="col-md-3 polo-text PreciousSansMedium text-center about-text"><span> <img style="width: 50px;" alt="" src="http://kreativeco.com/cfm/media/wysiwyg/about-us/blue.png"> </span> <h2><span class="PreciousSansMedium" style="color: #1e2c47;">ALL ABOUT US</span></h2> <br><span> <a class="PreciousSansMedium" href="http://kreativeco.com/cfm/our-story.html"> <span> HELLO</span> </a> </span></div>';
-			html3 = texto + '<div class="col-md-3"> <div id="myCarousel3" data-ride="carousel" class="carousel slide"> <div class="carousel-inner">';
+			html3 = texto + '<div class="col-md-3"> <div id="myCarousel3" data-ride="carousel" class="carousel slide" data-interval="3000"> <div class="carousel-inner">';
 				
 				jQuery.ajax({
 					url: "leer_imagenes.php",
@@ -237,19 +237,11 @@ jQuery(window).load(function() {
 							}
 							
 						});
-						html3 = html3 + '<a class="left carousel-control" href="#myCarousel3" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel3" data-slide="next">></a></div></div></div>';console.log(html3);
+						//html3 = html3 + '<a class="left carousel-control" href="#myCarousel3" data-slide="prev"><</a> <a class="right carousel-control" href="#myCarousel3" data-slide="next">></a></div></div></div>';console.log(html3);
 						jQuery('div.row.PreciousSansMedium.fondo-blanco').append(html3);
 					}
 				});	
-				jQuery('#Carousel1').carousel({
-					interval: 2000
-				});
-				jQuery('#Carousel2').carousel({
-					interval: 2000
-				});
-				jQuery('#Carousel3').carousel({
-					interval: 2000
-				});
+				
 		}
 });
 function burguer(){
@@ -281,7 +273,7 @@ jQuery(window).resize(function() {
 			}
 			if(ancho > 768 && ancho > 1235){
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-153px;left: 0%;position: relative;z-index: 2;width:266px;height:63px');
+				jQuery('div.form-search').attr('style','top: -141px;left: 80%;position: relative;z-index: 2;width:266px;height:63px;');
 				jQuery('ul.nav.navbar-nav').attr('style','padding-right: 120px;');
 				jQuery('a.logo > img').attr('style','');
 			}
@@ -297,9 +289,45 @@ jQuery(window).resize(function() {
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top:-12px;left:0%;width:266px;height:63px');
+				jQuery('div.form-search').attr('style','top: 26px;right: -2%;width:262px;height:63px;');
 				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}
 		}
+});
+jQuery(document).ready(function(){
+jQuery('#myCarousel1').carousel({
+					cycle: true,
+					pause: "false"
+				});
+				jQuery('#myCarousel2').carousel({
+					cycle: true,
+					pause: "false"
+				});
+				jQuery('#myCarousel3').carousel({
+					cycle: true,
+					pause: "false"
+				});
+				jQuery(".section3").hover(function(){
+					jQuery("#myCarousel1,#myCarousel2,#myCarousel3").carousel("next");
+				},
+				function(){
+					jQuery("#myCarousel1,#myCarousel2,#myCarousel3").carousel("next");
+				});
+// Placeholder del search
+	jQuery("input#search").val("");
+// Hover menu para collection
+	jQuery("li.parent").find("ul").hide();
+	jQuery( "li.parent" )
+	  .filter( ":odd" )
+		.hide()
+	  .end()
+	  .filter( ":even" )
+		.hover(function() {
+		  jQuery( this )
+			.toggleClass( "active" )
+			.children('ul')
+			  .stop( true, true )
+			  .slideToggle();
+		});
 });

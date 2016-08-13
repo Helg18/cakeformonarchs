@@ -1392,7 +1392,7 @@ input #newsletter{
 	.parent ul li{width:7% !important;left:34%;position:relative;}
 	.parent > ul > li{top:0 !important;margin-top:0 !important;}
 	
-	.container.fondo-polo{padding-top:2%;}
+	.container.fondo-polo .col-md-4{margin-top:2.5%;}
 }
 
 .category-products h2.product-name{font-size:20px}

@@ -174,7 +174,7 @@ jQuery(window).load(function() {
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 				}else{
 					jQuery('form#search_mini_form').attr('style','');
-					jQuery('div.form-search').attr('style','top: 26px;right: -2%;width:262px;height:63px;');
+					jQuery('div.form-search').attr('style','top: -112px;right: -6%;width:262px;height:63px;');
 					jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 					jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 				}
@@ -289,12 +289,41 @@ jQuery(window).resize(function() {
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','margin-bottom: 50px;');
 			}else{
 				jQuery('form#search_mini_form').attr('style','');
-				jQuery('div.form-search').attr('style','top: 26px;right: -2%;width:262px;height:63px;');
+				jQuery('div.form-search').attr('style','top: -112px;right: -6%;width:262px;height:63px;');
 				jQuery('div.col-md-4.polo-text.PreciousSansLightItalic').attr('style','');
 				jQuery('div.col-md-4.polo-text.PreciousSansMedium').attr('style','');
 			}
 		}
 });
+/*jQuery(document).ready(function(){
+		jQuery("li.parent").find("ul").hide();
+	jQuery("li.parent").hover(function(){
+		jQuery("li.parent").find("ul").show();
+		jQuery("li.parent").addClass('activeris');
+	},
+	function(){
+		jQuery("li.parent").removeClass('activeris');
+		if ( jQuery( "li.parent" ).hasClass( "activeris" ) ) {
+			jQuery("li.parent").find("ul").show();
+		}else{
+			
+		}	
+	});
+});
+jQuery(document).ready(function(){
+	jQuery("li.parent ul li").hover(function(){
+		jQuery("li.parent").find("ul").show();
+		jQuery("li.parent").addClass('activeris');
+	},
+	function(){
+		jQuery("li.parent").removeClass('activeris');
+		if ( jQuery( "li.parent" ).hasClass( "activeris" ) ) {
+			jQuery("li.parent").find("ul").show();
+		}else{
+			jQuery("li.parent").find("ul").delay(2600).fadeOut();
+		}	
+	});
+});*/
 jQuery(document).ready(function(){
 jQuery('#myCarousel1').carousel({
 					cycle: true,
@@ -316,6 +345,7 @@ jQuery('#myCarousel1').carousel({
 				});
 // Placeholder del search
 	jQuery("input#search").val("");
+	jQuery("input#search").attr("placeholder", "Search");
 // Hover menu para collection
 	jQuery("li.parent").find("ul").hide();
 	jQuery( "li.parent" )

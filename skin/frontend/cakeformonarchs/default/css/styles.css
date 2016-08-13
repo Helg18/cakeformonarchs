@@ -111,7 +111,7 @@ ul{
     margin: 10px 0px;
     color: #1e2c47;	
 	border:0;
-	background-image: url('/cfm/lupa.png');
+	background-image: url('lupa.png');
     background-repeat: no-repeat;
     background-position: 0% 6px;
 	background-size: 16px 16px;
@@ -1383,16 +1383,16 @@ input #newsletter{
 	.navbar-nav > li{width:15%;}
 	.nav > li, .navbar-default .navbar-nav > li > a{padding:7px;}
 	.nav > li > a > img{max-width:none !important}
-	.parent:hover > ul{height:70%;padding-top:0px !important;padding-bottom:32px;top:92% !important;margin-top:0 !important;position:relative;}
+	.parent:hover > ul{height:70%;padding-top:0px !important;padding-bottom:32px;top:88% !important;margin-top:0 !important;position:relative;}
 	.parent ul li{width:7% !important;left:34%;position:relative;}
 	.parent:hover > ul > li{top:0 !important;margin-top:0 !important;}
 	li.level0.nav-1.first.level-top.parent{height:50px;}
 	
-	.parent > ul{height:70%;padding-top:0px !important;padding-bottom:32px;top:92% !important;margin-top:0 !important;position:relative;}
+	.parent > ul{height:70%;padding-top:0px !important;padding-bottom:32px;top:88% !important;margin-top:0 !important;position:relative;}
 	.parent ul li{width:7% !important;left:34%;position:relative;}
 	.parent > ul > li{top:0 !important;margin-top:0 !important;}
 	
-	.container.fondo-polo{padding-top:4%;}
+	.container.fondo-polo{padding-top:2%;}
 }
 
 .category-products h2.product-name{font-size:20px}

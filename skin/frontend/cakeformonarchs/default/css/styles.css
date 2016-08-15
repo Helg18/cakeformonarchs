@@ -1341,8 +1341,8 @@ input #newsletter{
 	.header .form-search {/*position:relative;text-align:center;width:100%;z-index: 9999999 !important;*/display:none !important;}
 	#myCarousel2,#myCarousel1{display:none  !important;}
 	#crossfade.presales-section-der > img { 
-		width: 86%;
-		left: 30px;
+		width: 70%;
+		left: 53px;
 	}
 
 }
@@ -1397,4 +1397,4 @@ input #newsletter{
 
 .category-products h2.product-name{font-size:20px}
 input #search{border:0 !important}
-
+.box-additional{display:none}

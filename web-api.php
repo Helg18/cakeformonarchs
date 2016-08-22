@@ -11,7 +11,7 @@
 //
 //	Set key for access to functionality this script
 //
-define('admin', 'Sobr1n0');
+define('WEB_API_KEY', 'admin');
 
 
 

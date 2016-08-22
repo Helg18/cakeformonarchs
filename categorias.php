@@ -3,6 +3,5 @@ $proxy = new SoapClient('http://kreativeco.com/cfm/api/v2_soap/?wsdl'); // TODO 
 $sessionId = $proxy->login('admin', 'Sobr1n0'); // TODO : change login and pwd if necessary
 
 $result = $proxy->catalogCategoryTree($sessionId);
-$json = Mage::helper('core')->jsonEncode($result);
-return $json;
+var_dump($result);
  ?>

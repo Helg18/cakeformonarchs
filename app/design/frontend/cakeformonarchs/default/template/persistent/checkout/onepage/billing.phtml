@@ -42,13 +42,20 @@
                                                  
         </div>
         <?php if(!$this->isCustomerLoggedIn()): ?>
-            <div class="col-md-6 col-sm-12 col-xs-12">
+            <!--
+             * update
+             * fersaavedra85@hotmail.com
+             * 2016-10-21
+             * se quito el campo de password de la ventana checkout, con la isntruccion display: none
+             * /app/design/frontend/cakeformonarchs/default/template/persistent/checkout/onepage
+            -->
+            <div class="col-md-6 col-sm-12 col-xs-12" style="display: none;">
                 <ul class="list-unstyled">
                     <li class="fields">
-                        <input placeholder=" Customer Password " type="password" name="billing[customer_password]" id="billing:customer_password" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Password')) ?>" class="input-text required-entry validate-password form-control" />
+                        <input placeholder=" Customer Password " type="password" name="billing[customer_password]" id="billing:customer_password" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Password')) ?>" class="input-text required-entry-not validate-password-not form-control" />
                     </li>
                     <li class="fields" id="register-customer-password">
-                        <input placeholder=" Confirm Password " type="password" name="billing[confirm_password]" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Confirm Password')) ?>" id="billing:confirm_password" class="input-text required-entry validate-cpassword form-control" />                            
+                        <input placeholder=" Confirm Password " type="password" name="billing[confirm_password]" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Confirm Password')) ?>" id="billing:confirm_password" class="input-text required-entry-not validate-cpassword-not form-control" />
                     </li>
                 </ul>
             </div>
